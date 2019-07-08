@@ -1,0 +1,63 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+}
+
+.nav-item:hover{
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.nav-item-r {
+    background-color: red;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.bg-dark {
+    background-color: #000000a1 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 20px;
+}
+
+#logosig {
+    width: 12%;
+    height: 12%;
+    margin-left: 3em;
+}
+
+#ejuridico {
+    background-image: url("/assets/img/background-1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: auto;
+    height: 60vmax;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-ejuridico {
+    margin-top: 13em;
+    color: white;
+}
+
+.header-ejuridico h1 {
+    font-size: 400%;
+    padding-bottom: 3%;
+    font-weight: lighter;
+}
+
+.header-ejuridico p {
+    font-size: 150%;
+    font-weight: 700;
+    padding-top: 2px;
+}
