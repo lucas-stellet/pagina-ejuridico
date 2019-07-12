@@ -169,3 +169,52 @@ body {
 .opcoes-info-content{
     text-align: justify;
 }
+
+#onde-utilizar {
+    background-image: url(/assets/img/background-3.png);
+    background-size: auto;
+    width: auto;
+    height: 70vmax;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.onde-utilizar-header {
+    padding-top: 9%;
+    padding-bottom: 5%;
+}
+
+.onde-utilizar-card {
+    background: white;
+    color: #444242;
+    border-radius: 10%;
+    width:12.8rem;
+    height: 15rem;
+    padding: 8%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.onde-utilizar-card-cert-jus {
+    background: white;
+    color: #444242;
+    border-radius: 10%;
+    width:18rem;
+    height: 15rem;
+    padding: 8%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.card-title {
+    color:#7b0000;
+    font-weight: 900;
+}
+
+.card-image {
+    width: 8rem;
+    height: 5.5rem;
+} 
