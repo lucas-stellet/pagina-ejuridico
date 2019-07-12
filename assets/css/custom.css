@@ -3,13 +3,21 @@ body {
     background-color: black;
 }
 
+.ml-5, .mx-5 {
+    margin-left: 5rem!important;
+}
+
+.mr-5, .mx-5 {
+    margin-right: 5rem!important;
+}
+
 .nav-item:hover{
     margin-bottom: 2px;
     border-bottom: 2px solid red;
 }
 
 .nav-item-r {
-    background-color: red;
+    background-color: #ff0000;
 }
 
 .nav-link {
@@ -31,7 +39,7 @@ body {
 
 #logosig {
     width: 12%;
-    height: 12%;
+    height: auto;
     margin-left: 3em;
 }
 
@@ -39,25 +47,125 @@ body {
     background-image: url("/assets/img/background-1.png");
     background-repeat: no-repeat;
     background-size: auto;
+    background-attachment: fixed;
     width: auto;
-    height: 60vmax;
+    height: 70vmax;
     background-position: center;
     background-size: cover;
 }
 
-.header-ejuridico {
+.header-ejuridico, 
+.header-comprar{
     margin-top: 13em;
     color: white;
 }
 
-.header-ejuridico h1 {
+.header-ejuridico h1,
+.header-comprar h1 {
     font-size: 400%;
     padding-bottom: 3%;
     font-weight: lighter;
+    left: 30%;
+    position: relative;
+    transform: translateX(-80%);
+    transform: translateX(-30%);
 }
 
-.header-ejuridico p {
+.header-ejuridico p,
+.header-comprar p{
     font-size: 150%;
-    font-weight: 700;
+    font-weight: 600;
     padding-top: 2px;
+}
+
+#comprar {
+    background-image: url(/assets/img/background-2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: auto;
+    height: 70vmax;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.comprar-content {
+    position: relative;
+    width: 100%;
+    left: 60%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+
+.content-icons {
+    width: 55%;
+    height: 90%;
+    left: 30%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: auto;
+    font-weight: 500;
+}
+
+
+.content-text {
+    font-size: 100%;
+    font-weight: 800;
+    left: 30%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+#opcoes {
+    background: white;
+    background-size: auto;
+    width: auto;
+    height: 70vmax;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    color: #444242;
+    text-align: center;
+}
+
+.header-opcoes,
+.header-opcoes h1{
+    background: #7b0000;    
+    padding: 1.0%;
+    color: white;
+    font-size: 180%;
+    text-align: center;
+}
+
+.opcoes-main {
+
+}
+
+.logo-cert, 
+.logo-token {
+    padding-top: 50rem;
+} 
+
+.opcoes-content {
+    height: 290px;
+    font-weight: bolder;
+}
+
+.opcoes-content .logo {
+    width: 225px;
+    height: 148px;
+}
+
+.opcoes-info-products, 
+.opcoes-info-content{
+    text-align: justify;
 }
