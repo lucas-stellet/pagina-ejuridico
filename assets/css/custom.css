@@ -128,29 +128,42 @@ p {
     transform: translateX(-100%);
 }
 
-
 .btn{
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
-    width: 115%;
-    height: auto;
+    width: 110%;
+    height: 60%;
     font-weight: 600;
-    margin: 0;
+    margin: 10%;
+}
+
+.btn2 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 70%;
+    height: 60%;
+    font-weight: 600;
+    margin: 10%;
 }
 
 .button-content1 {
-    padding-top: 4%;
+    padding-top: 4%;    
+}
+
+.button-content2 {
+    padding-top: 4%;    
 }
 
     
 .button-content2 p{
-    font-size: 0.78rem;
+    font-size: 0.6rem;
 }
 
 
 .button-content1 p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 
 }
 
@@ -174,7 +187,6 @@ p {
 }
 
 
-
 .opcoes-header {
     margin-top: 2.7%;
 }
@@ -193,6 +205,8 @@ p {
 .btn-opcoes{
     width: auto;
 }
+
+
 
 .opcoes-main {
     padding-left: 10%;
