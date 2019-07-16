@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: black;
@@ -38,6 +39,10 @@ p {
     color: rgb(255, 255, 255);
 }
 
+.navbar-nav {
+    margin-right: 7em;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 20px;
 }
@@ -45,7 +50,7 @@ p {
 #logosig {
     width: 12%;
     height: auto;
-    margin-left: 3em;
+    margin-left: 7em;
 }
 
 #ejuridico {
@@ -57,6 +62,8 @@ p {
     height: 55vmax;
     background-position: center;
     background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .header-ejuridico {
@@ -65,21 +72,22 @@ p {
     color: white;
 }
 
-.header-ejuridico h1 {
+.header-ejuridico p{
     font-size: 350%;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 #roll-button {
-    width: 35%;
+    padding-top: 30%;
+    width: 25%;
     margin-left: 30%;
 }
 
 .content-ejuridico p{
-    font-size: 150%;
+    font-size: 130%;
     font-weight: 600;
     color: white;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 #comprar {
@@ -111,12 +119,12 @@ p {
 
 .header-comprar h1 {
     font-size: 350%;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 .header-comprar p{
     font-size: 150%;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
 }
 
@@ -167,9 +175,9 @@ p {
 
 }
 
-.content-text {
+.comprar-text{
     font-size: 100%;
-    font-weight: 900;
+    font-weight: 700;
     text-align: right;
 }
 
@@ -186,11 +194,22 @@ p {
     text-align: center;
 }
 
-
 .opcoes-header {
     margin-top: 2.7%;
+    font-weight: 100;
 }
 
+.opcoes-content {
+
+}
+
+.opcoes-button {
+}
+
+.opcoes-logo {
+    width: 10rem;
+    height: 7rem;
+}
 
 .header-content,
 .header-content h1{
@@ -206,34 +225,10 @@ p {
     width: auto;
 }
 
-
-
 .opcoes-main {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 0.5%;
-}
-
-.opcoes-button p{
-    color: white;
-    
-}
-
-.opcoes-button {
-    width: 317px;
-    padding-top: 5px;
-}
-
-.logo {
-    width: 120px;
-    height: 115px;
-} 
-
-.opcoes-content {
-
-    font-weight: bolder;
-    width: 88%;
-    height: 82%;
 }
 
 .opcoes-content h5, 
@@ -241,10 +236,15 @@ p {
     line-height: 1.5rem;
 }
 
+.opcoes-content h3{
+    font-weight: 500;
+}
+
 .opcoes-info-products, 
 .opcoes-info-content{
     text-align: justify;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
+    font-weight: 600;
 }
 
 #onde-utilizar {
@@ -260,8 +260,18 @@ p {
 }
 
 .onde-utilizar-header {
-    padding-top: 9%;
-    padding-bottom: 5%;
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+
+#header-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#header-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .onde-utilizar-card {
@@ -269,8 +279,8 @@ p {
     color: #444242;
     border-radius: 10%;
     width:12.8rem;
-    height: 15rem;
-    padding: 8%;
+    height: 12.5rem;
+    padding-top: 8%;
     margin-right: 4%;
     margin-left: 4%;
 }
@@ -279,19 +289,51 @@ p {
     background: white;
     color: #444242;
     border-radius: 10%;
-    width:18rem;
-    height: 15rem;
-    padding: 8%;
+    width:17rem;
+    height: 12.5rem;
+    padding-top: 3%;
     margin-right: 4%;
     margin-left: 4%;
 }
 
 .card-title {
-    color:#7b0000;
+    color: #e41717;
     font-weight: 900;
+    font-size: 1.1rem;
+    padding-top: 4%;
 }
 
 .card-image {
-    width: 8rem;
-    height: 5.5rem;
+    width: 6rem;
+    height: 3.5rem;
 } 
+
+.card-content {
+    font-weight: 900;
+}
+
+.footer-content {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.footer-content strong {
+    font-weight: 900;
+}
+
+.btn3 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.rounded {
+    border-radius: 1rem!important;
+}
+
+.form-control {
+    width: 75%;
+}

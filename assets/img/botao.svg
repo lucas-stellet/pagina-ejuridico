@@ -4,7 +4,9 @@
 	 viewBox="0 0 51 51" style="enable-background:new 0 0 51 51;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FF0000;}
+	.st1{fill:#FFFFFF;}
 </style>
-<path class="st0" d="M25.5,0C11.4,0,0,11.4,0,25.5C0,39.6,11.4,51,25.5,51S51,39.6,51,25.5C51,11.4,39.6,0,25.5,0z M25.5,43.5
-	L11.6,13.7h27.9L25.5,43.5z"/>
+<path class="st0" d="M25.5,0C11.4,0,0,11.4,0,25.5S11.4,51,25.5,51S51,39.6,51,25.5S39.6,0,25.5,0z M25.5,43.5L11.6,13.7h27.9
+	L25.5,43.5z"/>
+<polygon class="st1" points="25.5,43.5 11.6,13.7 39.5,13.7 "/>
 </svg>
