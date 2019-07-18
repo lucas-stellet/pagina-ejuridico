@@ -1,0 +1,205 @@
+@media only screen and (max-width: 600px) {
+
+    #ejuridico {
+        background-image: none;
+        background-color: #444343;
+        color: white;
+        padding: 0;
+        width: auto;
+    }
+
+    .header-ejuridico p{
+        font-size: 24px;
+        font-weight: 500;
+        padding-top: 20%;
+        text-align: center; 
+    }
+
+    #roll-button {
+        padding-top: 30%;
+        width: 25%;
+        margin-left: 35%;
+    }
+
+    .content-ejuridico .p1{
+        font-size: 16px;
+        font-weight: 300;
+        color: white;
+        padding-top: 18%;
+        
+    }
+
+    .content-ejuridico .p2{
+        font-size: 16px;
+        font-weight: 300;
+        color: white;
+        padding-top: 5%;
+        padding-left: 0.7%;
+        padding-right: 0.7%;
+        
+    }
+
+    #comprar{
+        background-color: #26140c;
+        background-image: none;
+        color: white;
+        width: auto;
+        height: auto;
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .header-comprar {   
+        margin-top: 25px;
+    }
+
+    .header-comprar h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .comprar-row {
+        padding-right: 14px;
+        padding-top: 0px;
+        padding-left: 14px;
+}
+    .comprar-text{
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        padding-right: 0px;
+        height: auto;
+        width: auto;
+        padding-left: 0px;
+    }
+
+    .comprar-image img{
+        height: 35px;
+        position: relative;
+        left: 145px;
+        top: 6px;
+        width: 45px;
+    }
+
+    .comprar-card {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    .btn{
+        border-color: #ff0000;
+        width: 115px;
+        height: 30px;
+        font-weight: 800;
+        padding-top: 6px;  
+        border-radius: 50px;
+        font-size: 0.9rem;
+        position: relative;
+        left: 70px;
+        bottom: 25px;
+        background-color: #ff0000;
+    }
+
+    .btn2 {
+        border-color: #ff0000;
+        width: 115px;
+        height: 30px;
+        font-weight: 800;
+        padding-top: 8px;  
+        font-size: 0.7rem;
+        position: relative;
+        left: 70px;
+        bottom: 25px;
+        border-radius: 50px;
+        background-color: #ff0000;
+    }
+
+    #opcoes {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: auto;
+        background-position: center;
+        background-size: cover;
+        color: #7b0000;
+        text-align: center;
+        background: white;
+}
+
+    .opcoes-header {
+        margin: 0;
+        padding: 0;
+        font-weight: 100;
+        background-color: white;
+}
+
+    .header-content,
+    .header-content h1{
+        padding-top: 15px;
+        color: #7b0000;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        background: none;    
+}
+
+    .opcoes-card {
+        padding: 5px;
+}
+
+    .opcoes-header {
+        font-weight: 0;
+        margin-top: 0;
+}
+
+    .opcoes-logo {
+        height: 90px;
+        width: 140px;
+}
+
+    .btn-opcoes{
+        width: auto;
+}
+
+    .opcoes-main {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 0.5%;
+}
+
+    .opcoes-content h5, 
+    .opcoes-content h4 {
+        line-height: 1.5rem;
+}
+
+    .opcoes-content h3{
+        font-weight: 500;
+}
+
+    .opcoes-info {
+        padding-left: 14px;
+        padding-right: 14px;
+        margin-left: 0;
+}
+
+    .opcoes-info-products, 
+    .opcoes-info-content{
+        text-align: justify;
+        font-size: 0.65rem;
+        font-weight: 600;
+}
+
+    .opcoes-logo {
+        position: relative;
+        left: 5px;
+}
+
+    .opcoes-button {
+        position: relative;
+        left: 8px;
+        top: 5px;
+}
+
+}

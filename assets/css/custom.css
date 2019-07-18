@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: black;
+    background-color: black;    
 }
 
 p {
@@ -59,11 +59,11 @@ p {
     background-size: auto;
     background-attachment: fixed;
     width: auto;
-    height: 55vmax;
+    height: 720px;
     background-position: center;
     background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header-ejuridico {
@@ -96,11 +96,17 @@ p {
     background-repeat: no-repeat;
     background-size: auto;
     width: auto;
-    height: 55vmax;
+    height: 720px;
     background-position: center;
     background-size: cover;
     color: white;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.comprar-row {
+    padding: 15px;
 }
 
 .header-comprar{
@@ -109,56 +115,61 @@ p {
     color: white;
 }
 
-.comprar-content {
-    position: relative;
-    width: 100%;
-    left: 60%;
-    position: relative;
-    transform: translateX(-50%);
-}
-
 .header-comprar h1 {
     font-size: 350%;
     font-weight: 100;
 }
 
-.header-comprar p{
-    font-size: 150%;
-    font-weight: 500;
-    color: white;
+.comprar-text{
+    font-size: 100%;
+    font-weight: 700;
+    text-align: right;
 }
 
-.content-icons {
-    width: 50%;
-    height: 60%;
-    left: 30%;
+.comprar-card {
+    padding-top: 18px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.comprar-image img{
+    width: 70px;
+    height: 60px;
     position: relative;
-    transform: translateX(-100%);
+    left: 20px;
 }
 
 .btn{
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
-    width: 110%;
-    height: 60%;
-    font-weight: 600;
-    margin: 10%;
+    width: 115px;
+    height: 30px;
+    font-weight: 800;
+    padding-top: 6%;  
+    font-size: 0.9rem;
+    margin-top: 15%;
 }
 
 .btn2 {
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
-    width: 70%;
-    height: 60%;
-    font-weight: 600;
-    margin: 10%;
+    width: 115px;
+    height: 30px;
+    font-weight: 900;
+    padding-top: 10%;  
+    font-size: 0.7rem;
+    margin-top: 15%;
 }
 
-.button-content1 {
-    padding-top: 4%;    
-}
+/*.comprar-content {
+    position: relative;
+    width: 100%;
+    left: 60%;
+    position: relative;
+    transform: translateX(-50%);
+}*/
 
 .button-content2 {
     padding-top: 4%;    
@@ -169,25 +180,13 @@ p {
     font-size: 0.6rem;
 }
 
-
-.button-content1 p{
-    font-size: 0.7rem;
-
-}
-
-.comprar-text{
-    font-size: 100%;
-    font-weight: 700;
-    text-align: right;
-}
-
 #opcoes {
     background: white;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: auto;
     width: auto;
-    height: 55vmax;
+    height: 720px;
     background-position: center;
     background-size: cover;
     color: #444242;
@@ -195,15 +194,10 @@ p {
 }
 
 .opcoes-header {
-    margin-top: 2.7%;
+    margin-top: 0.8%;
     font-weight: 100;
-}
-
-.opcoes-content {
-
-}
-
-.opcoes-button {
+    background-color: #7b0000;
+    padding-top: 15px;
 }
 
 .opcoes-logo {
@@ -214,7 +208,7 @@ p {
 .header-content,
 .header-content h1{
     background: #7b0000;    
-    padding-top: 0.5%;
+    padding-top: 0.8%;
     padding-bottom: 0.5%;
     color: white;
     font-size: 175%;
@@ -240,6 +234,11 @@ p {
     font-weight: 500;
 }
 
+.opcoes-info {
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
 .opcoes-info-products, 
 .opcoes-info-content{
     text-align: justify;
@@ -251,7 +250,7 @@ p {
     background-image: url(/assets/img/background-3.png);
     background-size: auto;
     width: auto;
-    height: 55vmax;
+    height: 720px;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -312,22 +311,24 @@ p {
     font-weight: 900;
 }
 
-.footer-content {
-    font-size: 0.9rem;
-    font-weight: 500;
+.onde-utilizar-info {
+    margin-top: 30px;
 }
 
-.footer-content strong {
-    font-weight: 900;
+.onde-utilizar-newsletter {
+    padding-top: 10px;
 }
 
 .btn3 {
-    border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
     font-weight: 600;
     margin-left: 20%;
     margin-right: 20%;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 4px;
+    right: 5px;
 }
 
 .rounded {
@@ -335,5 +336,5 @@ p {
 }
 
 .form-control {
-    width: 75%;
+    width: 520px;
 }
