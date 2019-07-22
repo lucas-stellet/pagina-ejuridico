@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="./assets/css/custom.css">
     <link rel="stylesheet" href="./assets/css/media.css">
 
+    <!-- Google Font Link-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,800i,900&display=swap"
         rel="stylesheet">
+
+    <!--Icon Page-->
+    <link rel="shortcut icon" href="https://static.sig.digital/images/certificadora//favicon.png" type="image/x-icon" />
 
 
     <title>e-Juridico SIG</title>
@@ -27,7 +31,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="#ejuridico">e-Jurídico</a>
                     </li>
                     <li class="nav-item">
@@ -194,9 +198,9 @@
                     </div>
                 </div>
             </div>
-                    <div class="comprar-margem" id="opcoes2">
-                    
-                    </div>
+            <div class="comprar-margem" id="opcoes2">
+
+            </div>
         </div>
     </section>
 
@@ -379,7 +383,7 @@
 
             <div class="row onde-utilizar-cards">
 
-                <div class="col-12 col-sm-4 d-flex justify-content-center">
+                <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                     <div class="row">
                         <div class="onde-utilizar-card1">
                             <img class="card-image" src="/assets/img/icone-e-pet.svg" alt="forum">
@@ -391,7 +395,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-4 d-flex justify-content-center">
+                <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                     <div class="row">
                         <div class="onde-utilizar-card2">
                             <img class="card-image" src="/assets/img/icone-cert-jus.svg" alt="forum">
@@ -407,7 +411,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-4 d-flex justify-content-center">
+                <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                     <div class="row">
                         <div class="onde-utilizar-card1">
                             <img class="card-image" src="/assets/img/icone-e-doc.svg" alt="martelo justiça">
@@ -422,7 +426,7 @@
 
 
             <div class="row">
-                <div class="col-sm-12 onde-utilizar-info">
+                <div class="col-sm-12 col-md-12 onde-utilizar-info">
                     <p>
                         Diversos outros serviços na esfera digital, como assinar documentos, enviar a <br>
                         Declaração do Imposto de Renda, entre outras aplicações utilizam o <strong>Certificado
@@ -437,7 +441,7 @@
 
 
             <div class="row">
-                <div class="col-sm-12 onde-utilizar-newsletter">
+                <div class="col-sm-12 col-md-12 onde-utilizar-newsletter">
                     <div class="row">
                         <div class="col-sm-8 d-flex justify-content-end">
                             <label class=" sr-only" for="inlineFormInput"></label>
@@ -465,6 +469,12 @@
     <script src="./node_modules/popper.js/dist/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript">
+        $(document).on('click', 'ul li', function () {
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    </script>
+    
 </body>
 
 </html>

@@ -27,7 +27,7 @@ p {
     transition: 0.5s;
 }
 
-.nav-item:target{
+ul li.active a{
     margin-bottom: 2px;
     border-bottom: 2px solid red;
 }
@@ -295,8 +295,8 @@ p {
 }
 
 .onde-utilizar-cards {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .onde-utilizar-card1 {
