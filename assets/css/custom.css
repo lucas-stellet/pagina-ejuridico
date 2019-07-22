@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Nunito', sans-serif;
@@ -17,9 +20,21 @@ p {
     margin-right: 5rem!important;
 }
 
+
 .nav-item:hover{
     margin-bottom: 2px;
     border-bottom: 2px solid red;
+    transition: 0.5s;
+}
+
+.nav-item:target{
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,.75);
+    transition: 0.5s;
 }
 
 .nav-item-r {
@@ -47,9 +62,9 @@ p {
     padding: 20px;
 }
 
-#logosig {
-    width: 12%;
-    height: auto;
+.logosig {
+    width: auto;
+    height: 58px;;
     margin-left: 7em;
 }
 
@@ -59,7 +74,7 @@ p {
     background-size: auto;
     background-attachment: fixed;
     width: auto;
-    height: 720px;
+    height: 780px;
     background-position: center;
     background-size: cover;
     padding-left: 10%;
@@ -96,7 +111,7 @@ p {
     background-repeat: no-repeat;
     background-size: auto;
     width: auto;
-    height: 720px;
+    height: 100%;
     background-position: center;
     background-size: cover;
     color: white;
@@ -180,13 +195,17 @@ p {
     font-size: 0.6rem;
 }
 
+.comprar-margem {
+    height: 56px; 
+}
+
 #opcoes {
     background: white;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: auto;
     width: auto;
-    height: 720px;
+    height: 780px;
     background-position: center;
     background-size: cover;
     color: #444242;
@@ -194,10 +213,8 @@ p {
 }
 
 .opcoes-header {
-    margin-top: 0.8%;
     font-weight: 100;
     background-color: #7b0000;
-    padding-top: 15px;
 }
 
 .opcoes-logo {
@@ -208,8 +225,8 @@ p {
 .header-content,
 .header-content h1{
     background: #7b0000;    
-    padding-top: 0.8%;
-    padding-bottom: 0.5%;
+    padding-top: 5px;;
+    padding-bottom: 5px;
     color: white;
     font-size: 175%;
     text-align: center;
@@ -246,6 +263,10 @@ p {
     font-weight: 600;
 }
 
+#comprar-margem {
+    height: 59px;
+}
+
 #onde-utilizar {
     background-image: url(/assets/img/background-3.png);
     background-size: auto;
@@ -273,7 +294,12 @@ p {
     font-weight: 600;
 }
 
-.onde-utilizar-card {
+.onde-utilizar-cards {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.onde-utilizar-card1 {
     background: white;
     color: #444242;
     border-radius: 10%;
@@ -284,7 +310,8 @@ p {
     margin-left: 4%;
 }
 
-.onde-utilizar-card-cert-jus {
+
+.onde-utilizar-card2 {
     background: white;
     color: #444242;
     border-radius: 10%;

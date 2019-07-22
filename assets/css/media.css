@@ -1,11 +1,31 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 660px) {
 
+    .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(195,1,1,1 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+    }
+
+    .navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: #191919;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
+}
+
+    .logosig {
+    width: auto;
+    height: 35px;
+    margin-left: 10px;
+
+}
     #ejuridico {
         background-image: none;
         background-color: #444343;
         color: white;
         padding: 0;
         width: auto;
+        height: auto;
     }
 
     .header-ejuridico p{
@@ -121,6 +141,7 @@
         background-repeat: no-repeat;
         background-size: auto;
         width: auto;
+        height: auto;
         background-position: center;
         background-size: cover;
         color: #7b0000;
@@ -201,5 +222,115 @@
         left: 8px;
         top: 5px;
 }
+
+    #onde-utilizar {
+        background-image: none;
+        background-color: #6F480D;
+        color: white;
+        padding: 0;
+        width: auto;
+        height: auto;
+}
+
+.onde-utilizar-header {
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+
+#header-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#header-subtitle {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.onde-utilizar-card {
+    background: white;
+    color: #444242;
+    border-radius: 10%;
+    width:12.8rem;
+    height: 12.5rem;
+    padding-top: 8%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.onde-utilizar-card-cert-jus {
+    background: white;
+    color: #444242;
+    border-radius: 10%;
+    width:17rem;
+    height: 12.5rem;
+    padding-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.card-title {
+    color: #e41717;
+    font-weight: 900;
+    font-size: 1.1rem;
+    padding-top: 4%;
+}
+
+.card-image {
+    width: 6rem;
+    height: 3.5rem;
+} 
+
+.card-content {
+    font-weight: 900;
+}
+
+.onde-utilizar-cards {
+    padding: 0px;
+}
+
+.onde-utilizar-card1{
+    margin-top: 25px;
+}
+
+.onde-utilizar-card2{
+    margin-top: 25px;
+}
+
+.onde-utilizar-info {
+    margin-top: 30px;
+}
+
+.onde-utilizar-info {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.onde-utilizar-newsletter {
+    padding-top: 10px;
+}
+
+.btn3 {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 0.9rem;
+    margin-top: 15px;   
+    margin-left: 130px;
+    padding: 10px;
+}
+
+.rounded {
+    border-radius: 1rem!important;
+}
+
+.form-control {
+    width: 520px;
+}
+
 
 }
