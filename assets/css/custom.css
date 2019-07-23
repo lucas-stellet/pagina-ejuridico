@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Nunito', sans-serif;
     background-color: black;    
@@ -27,7 +23,7 @@ p {
     transition: 0.5s;
 }
 
-ul li.active a{
+.nav-item.active{
     margin-bottom: 2px;
     border-bottom: 2px solid red;
 }
@@ -60,6 +56,11 @@ ul li.active a{
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 20px;
+}
+
+.nav-item .current {
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
 }
 
 .logosig {
@@ -374,4 +375,19 @@ ul li.active a{
 
 .form-control {
     width: 520px;
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    background-color:black;
+    color: white;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 200;
 }
