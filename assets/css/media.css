@@ -349,8 +349,6 @@
     font-family: 'Nunito', sans-serif;
     background-color:black;
     color: white;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .footer p {
@@ -359,4 +357,434 @@
     font-weight: 200;
 }
 
+}
+
+
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: black;    
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.ml-5, .mx-5 {
+    margin-left: 5rem!important;
+}
+
+.mr-5, .mx-5 {
+    margin-right: 5rem!important;
+}
+
+
+.nav-item:hover{
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+    transition: 0.5s;
+}
+
+.nav-item.active{
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,.75);
+    transition: 0.5s;
+}
+
+.nav-item-r {
+    background-color: #ff0000;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 180%;
+}
+
+.bg-dark {
+    background-color: #000000a1 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav {
+    margin-right: 7em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 20px;
+}
+
+.nav-item .current {
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.logosig {
+    width: auto;
+    height: 5rem;
+    margin-left: 7em;
+}
+
+#ejuridico {
+    background-image: url("/assets/img/background-1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    width: auto;
+    height: 60vmax;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header-ejuridico {
+    padding-top: 10%;    
+    margin-top: 3%;
+    color: white;
+}
+
+.header-ejuridico p{
+    font-size: 500%;
+    font-weight: 100;
+}
+
+#roll-button {
+    padding-top: 30%;
+    width: 35%;
+    margin-left: 30%;
+}
+
+.content-ejuridico p{
+    font-size: 220%;
+    font-weight: 500;
+    color: white;
+    padding-top: 2%;
+}
+
+#comprar {
+    background-image: url(/assets/img/background-2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: auto;
+    height: 55.8vmax;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.comprar-row {
+    padding: 15px;
+}
+
+.header-comprar{
+    padding-top: 9%;    
+    color: white;
+}
+
+.header-comprar h1 {
+    font-size: 490%;
+    font-weight: 300;
+}
+
+.comprar-text{
+    font-size: 160%;
+    font-weight: 700;
+    text-align: right;
+}
+
+.comprar-card {
+    padding-top: 3%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.comprar-image img{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    left: 15%;
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 130%;
+    height: 50%;
+    font-weight: 800;
+    padding: 5%;  
+    font-size: 1.3rem;
+    margin-top: 15%;
+}
+
+.btn2 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 130%;
+    height: 30px;
+    font-weight: 900;
+    padding: 5%;  
+    font-size: 0.9rem;
+    margin-top: 15%;
+    cursor: pointer;
+}
+
+/*.comprar-content {
+    position: relative;
+    width: 100%;
+    left: 60%;
+    position: relative;
+    transform: translateX(-50%);
+}*/
+
+.button-content2 {
+    padding-top: 4%;    
+}
+
+    
+.button-content2 p{
+    font-size: 0.6rem;
+}
+
+.comprar-margem {
+    height: 56px; 
+}
+
+.modal-content {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.86);
+    padding: 5%;
+}
+
+.modal-lg {
+    max-width: 80% !important;
+    height: 100%;
+}
+
+.modal-content h3 {
+    font-size: 280%;
+}
+
+.modal-content p {
+    font-size: 220%;
+}
+
+#opcoes {
+    background: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: auto;
+    height: 60vmax;
+    background-position: center;
+    background-size: cover;
+    color: #444242;
+    text-align: center;
+}
+
+.opcoes-header {
+    font-weight: 100;
+    background-color: #7b0000;
+}
+
+.header-content p {
+    font-size: 4.5rem;
+}
+
+.opcoes-logo {
+    width: 15rem;
+    height: 10rem;
+    left: 6px;
+    position: relative;
+}
+
+.header-content,
+.header-content p{
+    background: #7b0000;    
+    padding-top: 5px;;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 220%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.btn-opcoes{
+    width: auto;
+    left: 2px;
+    top: -22px;
+    position: relative;
+}
+
+.opcoes-main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0.5%;
+}
+
+.opcoes-content-type {
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+.opcoes-content-duration {
+    font-size: 1.9rem;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.opcoes-content-price {
+    font-size: 2.4rem;
+    font-weight: 600;
+    
+}
+
+.opcoes-info {
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.opcoes-info-products, 
+.opcoes-info-content{
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#comprar-margem {
+    height: 59px;
+}
+
+#onde-utilizar {
+    background-image: url(/assets/img/background-3.png);
+    background-size: auto;
+    width: auto;
+    height: 60vmax;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.onde-utilizar-header {
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+
+#header-title {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#header-subtitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.onde-utilizar-cards {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.onde-utilizar-card1 {
+    background: white;
+    color: #444242;
+    border-radius: 10%;
+    width:17.8rem;
+    height: 18.5rem;
+    padding-top: 9%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+
+.onde-utilizar-card2 {
+    background: white;
+    color: #444242;
+    border-radius: 10%;
+    width: 25rem;
+    height: 19.5rem;
+    padding-top: 6%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.card-title {
+    color: #e41717;
+    font-weight: 900;
+    font-size: 2.1rem;
+    padding-top: 4%;
+}
+
+.card-image {
+    width: 8rem;
+    height: 5.5rem;
+} 
+
+.card-content {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.onde-utilizar-info {
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.onde-utilizar-newsletter {
+    padding-top: 10px;
+}
+
+.btn3 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    font-weight: 800;
+    font-size: 1.53rem;
+    margin-top: 15%;
+    position: relative;
+    top: -17px;
+}
+
+.rounded {
+    border-radius: 1rem!important;
+}
+
+.form-control {
+    width: 720px;
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    background-color:black;
+    color: white;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 200;
+}
 }
