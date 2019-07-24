@@ -170,33 +170,53 @@
         padding: 5px;
 }
 
-    .opcoes-header {
-        font-weight: 0;
-        margin-top: 0;
+.opcoes-header {
+    font-weight: 0;
+    margin-top: 0;
 }
 
-    .opcoes-logo {
-        height: 90px;
-        width: 140px;
+.opcoes-logo {
+    height: 90px;
+    width: 140px;
 }
 
-    .btn-opcoes{
-        width: auto;
+.btn-opcoes{
+    width: auto;
 }
 
-    .opcoes-main {
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 0.5%;
+.opcoes-main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0.5%;
 }
 
-    .opcoes-content h5, 
-    .opcoes-content h4 {
-        line-height: 1.5rem;
+.opcoes-header p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #7b0000;
+    position: relative;
 }
 
-    .opcoes-content h3{
-        font-weight: 500;
+.opcoes-content-type {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.opcoes-content-duration {
+    font-size: 1rem;
+    margin-top: 1%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.opcoes-content-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;    
 }
 
     .opcoes-info {
@@ -783,8 +803,9 @@ p {
 }
 
 .footer p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
 }
 }
+
