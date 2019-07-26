@@ -8,6 +8,8 @@ p {
     margin-bottom: 0.5rem;
 }
 
+/* --- NAVBAR ---- */
+
 .ml-5, .mx-5 {
     margin-left: 5rem!important;
 }
@@ -15,7 +17,6 @@ p {
 .mr-5, .mx-5 {
     margin-right: 5rem!important;
 }
-
 
 .nav-item:hover{
     margin-bottom: 2px;
@@ -68,6 +69,8 @@ p {
     height: 58px;;
     margin-left: 7em;
 }
+
+/* ---- E JURIDICO SECTION ---- */
 
 #ejuridico {
     background-image: url("/assets/img/background-1.png");
@@ -178,14 +181,6 @@ p {
     cursor: pointer;
 }
 
-/*.comprar-content {
-    position: relative;
-    width: 100%;
-    left: 60%;
-    position: relative;
-    transform: translateX(-50%);
-}*/
-
 .button-content2 {
     padding-top: 4%;    
 }
@@ -207,6 +202,8 @@ p {
     background-color: rgba(255, 255, 255, 0.86);
     padding: 20px;
 }
+
+/* ---- OPCOES SECTION ---- */
 
 #opcoes {
     height: auto;
@@ -275,9 +272,19 @@ p {
     width:200px;
 }
 
-#comprar-margem {
-    height: 59px;
+.opcoes-card-title{
+    font-size: 135%;
+    font-weight: 400;
+    color: #e41717;
 }
+
+.opcoes-card-text {
+    font-size: 115%;
+    font-weight: 600;
+    text-align: justify;
+}
+
+/* ---- ONDE UTILIZAR SECTION ---- */
 
 #onde-utilizar {
     background-image: url(/assets/img/background-3.png);
@@ -320,7 +327,6 @@ p {
     margin-right: 4%;
     margin-left: 4%;
 }
-
 
 .onde-utilizar-card2 {
     background: white;
