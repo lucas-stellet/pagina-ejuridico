@@ -161,8 +161,8 @@ p {
     height: 30px;
     font-weight: 800;
     padding-top: 6%;  
-    font-size: 0.9rem;
     margin-top: 15%;
+    font-size: 0.9rem;
 }
 
 .btn2 {
@@ -209,7 +209,8 @@ p {
 }
 
 #opcoes {
-    height: 58vmax;
+    height: auto;
+    padding-bottom: 25px;
     background: white;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -232,19 +233,10 @@ p {
 }
 
 .opcoes-header p{
-    font-size: 280%;
+    font-size: 320%;
+    font-weight: 100;
     color: white;
     position: relative;
-}
-
-.opcoes-logo {
-    width: 10rem;
-    height: 7rem;
-}
-
-.btn-opcoes{
-    width: auto;
-    margin: 0;
 }
 
 .opcoes-main {
@@ -253,35 +245,34 @@ p {
     padding-top: 0.5%;
 }
 
-.opcoes-content-type {
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-align: center;
-}
-
-.opcoes-content-duration {
-    font-size: 1rem;
+.opcoes-card {
+    margin-bottom: 1%;
     margin-top: 1%;
-    font-weight: 400;
-    text-align: center;
+    width: 95%;
+    height: 55%;
 }
 
-.opcoes-content-price {
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: center;    
+.opcoes-card-content {
+    padding: 2%;
 }
 
-.opcoes-info {
-    padding-top: 1%;
-    margin-left: 30px;
+.opcoes-btn {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    font-weight: 800;  
+    font-size: 0.8rem;
 }
 
-.opcoes-info-products, 
-.opcoes-info-content{
-    text-align: justify;
-    font-size: 0.65rem;
-    font-weight: 800;
+.opcoes-btn:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.opcoes-card-img {
+    height: 120px; 
+    width:200px;
 }
 
 #comprar-margem {
@@ -305,8 +296,8 @@ p {
 }
 
 #header-title {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 350%;
+    font-weight: 100;
 }
 
 #header-subtitle {
