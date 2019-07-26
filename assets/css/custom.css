@@ -242,15 +242,15 @@ p {
     padding-top: 0.5%;
 }
 
+.opcoes-card-row {
+    height: 224px;
+}
+
 .opcoes-card {
     margin-bottom: 1%;
     margin-top: 1%;
     width: 95%;
     height: 55%;
-}
-
-.opcoes-card-content {
-    padding: 2%;
 }
 
 .opcoes-btn {
@@ -273,8 +273,8 @@ p {
 }
 
 .opcoes-card-title{
-    font-size: 135%;
-    font-weight: 400;
+    font-size: 150%;
+    font-weight: 300;
     color: #e41717;
 }
 
@@ -283,6 +283,18 @@ p {
     font-weight: 600;
     text-align: justify;
 }
+
+.opcoes-card-duration {
+    font-size: 115%;
+    font-weight: 600;
+}
+
+.opcoes-card-price {
+    font-size: 180%;
+    font-weight: 600;
+}
+
+
 
 /* ---- ONDE UTILIZAR SECTION ---- */
 

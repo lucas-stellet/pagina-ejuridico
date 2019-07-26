@@ -216,7 +216,7 @@
 
                     <div class="row">
                         <div class=" col-1 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                            <p class="btn2 btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg">
+                            <p class="btn2 btn-danger" data-toggle="modal" data-target="#modal-documents">
                                 DOCUMENTAÇÃO</p>
                             <!-- TESTE DE BOTÃO -- <button type="button" class="btn-danger opcoes-btn" data-toggle="modal"
                                 data-target="#exampleModalCenter">
@@ -232,37 +232,52 @@
             <p></p>
         </div>
 
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+        <!-- MODAL OF NON-MEDIA CERTIFICATE -->
+        <div class="modal fade" id="modal-documents" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
-                    <h3 style="text-align:center">Documentação Necessária – Certificado Digital e-Jurídico</h3>
-                    <p>
-                        1. Dois documentos de identificação pessoal com foto (do responsável) – ex: CNH, RG, Carteira de
-                        Classe <br>
-                        (Ex:OAB, CRM e outros), Passaporte e Registro Nacional de Estrangeiro (RNE). (original); <br>
-                        2. CPF (original);<br>
-                        3. Comprovante de residência emitido por concessionária pública há no máximo 90 dias;<br>
-                        4. PIS/PASEP/NIT (opcional);<br>
-                        5. CEI (opcional);
-                    </p>
-                    <p>
-                        Obs.1: É de suma importância à verificação da necessidade da inclusão do numero do PIS e do CEI,
-                        uma
-                        vez
-                        que
-                        após a
-                        emissão do Certificado Digital, tais numerações não podem ser incluídas. <br>
-                    </p>
-                    <p>
-                        Obs.2: O documento de identificação apresentado deve estar em perfeito estado. Não pode estar
-                        rasgado,
-                        conter rasuras,
-                        falhas, marcas ou qualquer outro dano.
-                    </p>
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle"><strong>Documentação necessária para
+                                Certificado Digital e-Jurídico</strong></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            1. Dois documentos de identificação pessoal com foto (do responsável) – ex: CNH, RG,
+                            Carteira de
+                            Classe; <br>
+                            (Ex:OAB, CRM e outros), Passaporte e Registro Nacional de Estrangeiro (RNE). (original);
+                            <br>
+                            2. CPF (original);<br>
+                            3. Comprovante de residência emitido por concessionária pública há no máximo 90 dias;<br>
+                            4. PIS/PASEP/NIT (opcional);<br>
+                            5. CEI (opcional);
+                        </p>
+                        <p>
+                            <strong>1ª observação:</strong> É de suma importância à verificação da necessidade da inclusão do numero do PIS e do
+                            CEI,
+                            uma
+                            vez
+                            que
+                            após a
+                            emissão do Certificado Digital, tais numerações não podem ser incluídas. <br>
+                        </p>
+                        <p>
+                            <strong>2ª observação:</strong> O documento de identificação apresentado deve estar em perfeito estado. Não pode
+                            estar
+                            rasgado,
+                            conter rasuras,
+                            falhas, marcas ou qualquer outro dano.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- END OF MODAL -->
+
     </section>
 
     <section id="opcoes">
@@ -278,13 +293,13 @@
                 <div class="row">
                     <section>
                         <div class="container-fluid opcoes-cards">
-                            <div class="opcoes-card shadow bg-white rounded">
-                                <div class="row">
-                                    <div class="col-md-3 my-auto opcoes-card-content">
+                            <div class="opcoes-card shadow-lg bg-white rounded">
+                                <div class="row opcoes-card-row">
+                                    <div class="col-md-3 my-auto opcoes-card-content1">
                                         <img class="opcoes-card-img" src="/assets/img/certificado-sem-midia.png"
                                             alt="Card image cap">
                                     </div>
-                                    <div class="col-md-6 my-auto opcoes-card-content">
+                                    <div class="col-md-6 my-auto opcoes-card-content1">
                                         <div class="card-block">
                                             <p class="opcoes-card-title">Certificado Sem Mídia</p>
                                             <p class="opcoes-card-text">Exige o uso de
@@ -295,13 +310,13 @@
                                                 ou de Estagiário com chip (exige leitora).</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 my-auto opcoes-card-content">
+                                    <div class="col-md-3 my-auto opcoes-card-content1">
                                         <div class="card-block">
                                             <div class="row d-flex justify-content-center">
-                                                <h5>36 meses</h5>
+                                                <p class="opcoes-card-duration">36 meses</p>
                                             </div>
                                             <div class="row d-flex justify-content-center">
-                                                <h2>R$ 130,00</h2>
+                                                <p class="opcoes-card-price">R$ 130,00</p>
                                             </div>
                                             <div class="row d-flex justify-content-center">
                                                 <button type="button" class="btn-danger opcoes-btn" data-toggle="modal"
@@ -313,8 +328,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="opcoes-card shadow bg-white rounded">
-                                <div class="row">
+                            <div class="opcoes-card shadow-lg bg-white rounded">
+                                <div class="row opcoes-card-row">
                                     <div class="col-md-3 my-auto opcoes-card-content">
                                         <img class="opcoes-card-img border-right-1 "
                                             src="/assets/img/certificado-e-juridico-token.png" alt="Card image cap">
@@ -333,20 +348,18 @@
                                     </div>
                                     <div class="col-md-3 my-auto opcoes-card-content">
                                         <div class="card-block">
-                                            <div
-                                                class="row d-flex flex-column justify-content-center align-items-center">
-                                                <h5>36 meses</h5>
+                                            <div class="row d-flex justify-content-center">
+                                                <p class="opcoes-card-duration">36 meses</p>
                                             </div>
-                                            <div
-                                                class="row d-flex flex-column justify-content-center align-items-center">
-                                                <h2>R$ 220,00</h2>
+                                            <div class="row d-flex justify-content-center">
+                                                <p class="opcoes-card-price">R$ 220,00</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="opcoes-card shadow bg-white rounded">
-                                <div class="row">
+                            <div class="opcoes-card shadow-lg bg-white rounded">
+                                <div class="row opcoes-card-row">
                                     <div class="col-md-3 my-auto opcoes-card-content">
                                         <img class="opcoes-card-img border-right-1"
                                             src="/assets/img/certificado-e-juridico-cartao.png" alt="Card image cap">
@@ -365,10 +378,10 @@
                                     <div class="col-md-3 my-auto opcoes-card-content">
                                         <div class="card-block">
                                             <div class="row d-flex justify-content-center">
-                                                <h5>36 meses</h5>
+                                                <p class="opcoes-card-duration">36 meses</p>
                                             </div>
                                             <div class="row d-flex justify-content-center">
-                                                <h2>R$ 220,00</h2>
+                                                <p class="opcoes-card-price">R$ 220,00</p>
                                             </div>
                                         </div>
                                     </div>
