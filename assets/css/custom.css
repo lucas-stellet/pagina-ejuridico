@@ -108,8 +108,10 @@ p {
     padding-top: 2%;
 }
 
+/* ---- COMPRAR SECTION ----*/
+
 #comprar {
-    height: 48vmax;
+    height: 45vmax;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -141,6 +143,7 @@ p {
     font-size: 100%;
     font-weight: 700;
     text-align: right;
+    
 }
 
 .comprar-card {
@@ -149,11 +152,10 @@ p {
     padding-right: 4px;
 }
 
+
 .comprar-image img{
     width: 70px;
     height: 60px;
-    position: relative;
-    left: 20px;
 }
 
 .btn{
@@ -161,10 +163,9 @@ p {
     background-color: #ff0000;
     border-color: #ff0000;
     width: 115px;
-    height: 30px;
+    height: 25px;
     font-weight: 800;
-    padding-top: 6%;  
-    margin-top: 15%;
+    padding-top: 1px;  
     font-size: 0.9rem;
 }
 
@@ -173,12 +174,10 @@ p {
     background-color: #ff0000;
     border-color: #ff0000;
     width: 115px;
-    height: 30px;
-    font-weight: 900;
-    padding-top: 10%;  
+    height: 25px;
+    font-weight: 800;
+    padding-top: 4px;  
     font-size: 0.7rem;
-    margin-top: 15%;
-    cursor: pointer;
 }
 
 .button-content2 {
@@ -314,12 +313,12 @@ p {
     padding-bottom: 2%;
 }
 
-#header-title {
+.onde-utilizar-header-title {
     font-size: 350%;
     font-weight: 100;
 }
 
-#header-subtitle {
+.onde-utilizar-header-subtitle {
     font-size: 1.5rem;
     font-weight: 600;
 }
