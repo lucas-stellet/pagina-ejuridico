@@ -469,7 +469,7 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: 80vmax;
+    height: 140vmax;
 }
 
 .header-ejuridico {
@@ -499,7 +499,7 @@ p {
 /* ---- COMPRAR SECTION ----*/
 
 #comprar {
-    height: 108vmax;
+    height: 165vmax;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
