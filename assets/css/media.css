@@ -250,7 +250,7 @@
 .opcoes-card-text {
     font-size: 100%;
     font-weight: 600;
-    text-align: justify;
+    text-align: center;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 1%;
@@ -2056,7 +2056,6 @@ p {
     font-weight: 200;
 }
 }
-
 
 /*           MEDIA QUERY 2559px ---> ...  BREAKPOINT MD        */
 @media only screen and (min-width: 2559px) {
