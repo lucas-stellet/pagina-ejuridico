@@ -318,6 +318,7 @@
     margin-top: 25px;
     width: 260px;
     height: auto;
+    font-size: 
 }
 
 .onde-utilizar-card2{
@@ -661,7 +662,7 @@ p {
 
 .opcoes-card-title{
     font-size: 150%;
-    font-weight: 300;
+    font-weight: 600;
     color: #e41717;
 }
 
@@ -1084,7 +1085,7 @@ p {
 
 .opcoes-card-title{
     font-size: 150%;
-    font-weight: 300;
+    font-weight: 600;
     color: #e41717;
 }
 
@@ -1501,7 +1502,7 @@ p {
 
 .opcoes-card-title{
     font-size: 150%;
-    font-weight: 300;
+    font-weight: 600;
     color: #e41717;
 }
 
@@ -1726,11 +1727,11 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: 70vmax;
+    height: 50vmax;
 }
 
 .header-ejuridico {
-    padding-top: 15%;    
+    padding-top: 8%;    
     margin-top: 3%;
     color: white;
 }
@@ -1749,8 +1750,8 @@ p {
 }
 
 #roll-button {
-    padding-top: 15%;
-    width: 5%;
+    padding-top: 5%;
+    width: 4%;
     margin-left: 48%;
 }
 
@@ -1864,7 +1865,7 @@ p {
 }
 
 .opcoes-margin {
-    margin-top: -5%;
+    margin-top: 2%;
 }
 
 .opcoes-header {
@@ -1919,7 +1920,7 @@ p {
 
 .opcoes-card-title{
     font-size: 150%;
-    font-weight: 300;
+    font-weight: 600;
     color: #e41717;
 }
 
@@ -2335,7 +2336,7 @@ p {
 
 .opcoes-card-title{
     font-size: 250%;
-    font-weight: 300;
+    font-weight: 600;
     color: #e41717;
 }
 

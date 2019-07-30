@@ -81,7 +81,7 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: 48vmax;
+    height: 60vmax;
 }
 
 .header-ejuridico {
@@ -272,7 +272,7 @@ p {
 
 .opcoes-card-title{
     font-size: 150%;
-    font-weight: 300;
+    font-weight: 800;
     color: #e41717;
 }
 
