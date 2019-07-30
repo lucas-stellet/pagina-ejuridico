@@ -26,10 +26,22 @@
 
 .nav-item-r {
     background-color: white;
+    border-bottom: 2px solid #979595ee;
 }
 
 .navbar-dark .navbar-nav .nav-item-r .nav-link {
     color: #ff0000;
+}
+
+.nav-item:hover{
+    margin-bottom: 0.5px;
+    border-bottom: 0.5px solid red;
+    transition: 0.5s;
+}
+
+.nav-item .current {
+    margin-bottom: 0.5px;
+    border-bottom: 0.5px solid red;
 }
 
 
@@ -282,28 +294,6 @@
     font-weight: 600;
 }
 
-.onde-utilizar-card {
-    background: white;
-    color: #444242;
-    border-radius: 10%;
-    width:12.8rem;
-    height: 12.5rem;
-    padding-top: 8%;
-    margin-right: 4%;
-    margin-left: 4%;
-}
-
-.onde-utilizar-card-cert-jus {
-    background: white;
-    color: #444242;
-    border-radius: 10%;
-    width:17rem;
-    height: 12.5rem;
-    padding-top: 3%;
-    margin-right: 4%;
-    margin-left: 4%;
-}
-
 .card-title {
     color: #e41717;
     font-weight: 900;
@@ -326,10 +316,14 @@
 
 .onde-utilizar-card1{
     margin-top: 25px;
+    width: 260px;
+    height: auto;
 }
 
 .onde-utilizar-card2{
     margin-top: 25px;
+    width: 260px;
+    height: auto;
 }
 
 .onde-utilizar-info {
@@ -1763,7 +1757,7 @@ p {
 /* ---- COMPRAR SECTION ----*/
 
 #comprar {
-    height: 45vmax;
+    height: 50vmax;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
