@@ -81,7 +81,7 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: 60vmax;
+    height: 48.5vmax;
 }
 
 .header-ejuridico {
@@ -103,8 +103,12 @@ p {
     padding-top: 2%;
 }
 
+.roll-button {
+    
+}
+
 #roll-button {
-        width: 25%;
+        width: 25%;  
     }
 
 /* ---- COMPRAR SECTION ----*/
@@ -266,8 +270,8 @@ p {
 }
 
 .opcoes-card-img {
-    height: 120px; 
-    width:200px;
+    height: 143px; 
+    width:215px;
 }
 
 .opcoes-card-title{
