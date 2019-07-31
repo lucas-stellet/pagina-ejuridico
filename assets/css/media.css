@@ -57,7 +57,7 @@
         color: white;
         padding: 0;
         width: auto;
-        height: 100%;
+        height: 100vh;
     }
 
     .header-ejuridico p{
@@ -236,7 +236,7 @@
 
 .opcoes-card-title{
     font-size: 130%;
-    font-weight: 300;
+    font-weight: 600;
     color: #e41717;
     padding-left: 5%;
     padding-right: 5%;
@@ -467,7 +467,7 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: 75vmax;
+    height: 100vh;
 }
 
 .header-ejuridico {
@@ -889,7 +889,7 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: auto;
+    height: 100vh;
 }
 
 .header-ejuridico {
@@ -1292,7 +1292,7 @@ p {
 
 .logosig {
     width: auto;
-    height: 58px;;
+    height: 58px;
     margin-left: 7em;
 }
 
@@ -1307,7 +1307,7 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: auto;
+    height: 100vh;
 }
 
 .header-ejuridico {
@@ -1335,7 +1335,7 @@ p {
 /* ---- COMPRAR SECTION ----*/
 
 #comprar {
-    height: 70vmax;
+    height: 50vmax;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1722,7 +1722,7 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: auto;
+    height: 100vh;
 }
 
 .header-ejuridico {
@@ -2130,7 +2130,7 @@ p {
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-    height: auto;
+    height: 100vh;
 }
 
 .header-ejuridico {
