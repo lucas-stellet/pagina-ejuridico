@@ -57,7 +57,7 @@
         color: white;
         padding: 0;
         width: auto;
-        height: 100vh;
+        height: 118vh;
     }
 
     .header-ejuridico p{
@@ -67,9 +67,21 @@
         text-align: center; 
     }
 
-    #roll-button {
-        width: 20%;
-    }
+    .roll-button {
+    position: absolute;
+    z-index: 3;
+    bottom: 5;
+    width: 100%;
+    min-height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#roll-button {
+    width: 8%;
+}
 
     .content-ejuridico .p1{
         font-size: 16px;
@@ -481,8 +493,20 @@ p {
     font-weight: 100;
 }
 
+.roll-button {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    width: 100%;
+    min-height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 #roll-button {
-    width: 20%;
+    width: 4%;
 }
 
 .content-ejuridico p{
@@ -802,7 +826,7 @@ p {
 }
 
 /*           MEDIA QUERY 768px ---> 991px  BREAKPOINT MD        */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 939px) {
 
 /* --- NAVBAR ---- */
 
@@ -894,6 +918,439 @@ p {
 
 .header-ejuridico {
     padding-top: 5%;    
+    margin-top: 8%;
+    color: white;
+}
+
+.header-ejuridico p{
+    font-size: 200%;
+    font-weight: 200;
+}
+
+.content-ejuridico p{
+    font-size: 95%;
+    font-weight: 600;
+    color: white;
+    padding-top: 2%;
+    text-align: justify;
+}
+
+.roll-button {
+    position: absolute;
+    z-index: 3;
+    bottom: 5;
+    width: 100%;
+    min-height: 30px;
+    margin: auto;
+    padding-top: 12%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#roll-button {
+    width: 3%;
+}
+
+/* ---- COMPRAR SECTION ----*/
+
+#comprar {
+    height: 120vh;
+    background-image: url(/assets/img/background-2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.comprar-row {
+    padding: 15px;
+}
+
+.header-comprar{
+    padding-top: 5%;    
+    margin-top: 8%;
+    color: white;
+}
+
+.header-comprar h1 {
+    font-size: 200%;
+    font-weight: 200;
+}
+
+.comprar-text{
+    font-size: 80%;
+    font-weight: 700;
+    text-align: right;
+    
+}
+
+.comprar-card {
+    padding-top: 18px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.comprar-image img{
+    width: 50px;
+    height: 40px;
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 100px;
+    height: 20px;
+    font-weight: 800;
+    padding-top: 1px;  
+    font-size: 0.7rem;
+}
+
+.btn2 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 100px;
+    height: 20px;
+    font-weight: 800;
+    padding-top: 4px;  
+    font-size: 0.6rem;
+}
+
+.button-content2 {
+    padding-top: 4%;    
+}
+
+    
+.button-content2 p{
+    font-size: 0.6rem;
+}
+
+.comprar-margem {
+    height: 56px; 
+}
+
+.modal-content {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.86);
+    padding: 20px;
+}
+
+/* ---- OPCOES SECTION ---- */
+
+#opcoes {
+    height: auto;
+    padding-bottom: 25px;
+    background: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    color: #444242;
+    text-align: center;
+}
+
+.opcoes-margin {
+    margin-top: -5%;
+}
+
+.opcoes-header {
+    background-color: #7b0000;
+    padding-left: 0px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.opcoes-header p{
+    font-size: 200%;
+    font-weight: 200;
+    color: white;
+    position: relative;
+}
+
+.opcoes-main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0.5%;
+}
+
+.opcoes-card-row {
+    height: 220px;
+}
+
+.opcoes-card {
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 95%;
+    height: 55%;
+    overflow: auto;
+}
+
+.opcoes-btn {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    font-weight: 800;  
+    font-size: 0.6rem;
+}
+
+.opcoes-btn:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.opcoes-card-img {
+    padding: 10%;
+    height: 115%; 
+    width:115%;
+}
+
+.opcoes-card-title{
+    font-size: 100%;
+    font-weight: 600;
+    color: #e41717;
+    
+}
+
+.opcoes-card-text {
+    font-size: 80%;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.opcoes-card-duration {
+    font-size: 95%;
+    font-weight: 600;
+}
+
+.opcoes-card-price {
+    font-size: 100%;
+    font-weight: 600;
+}
+
+
+
+/* ---- ONDE UTILIZAR SECTION ---- */
+
+#onde-utilizar {
+    background-image: url(/assets/img/background-3.png);
+    height: auto;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.onde-utilizar-header {
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+.onde-utilizar-header-title {
+    font-size: 200%;
+    font-weight: 200;
+}
+
+.onde-utilizar-header-subtitle {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.onde-utilizar-cards {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.onde-utilizar-card1 {
+    background: white;
+    color: #444242;
+    border-radius: 10%;
+    width:10.8rem;
+    height: 9.5rem;
+    padding-top: 5%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.onde-utilizar-card2 {
+    background: white;
+    color: #444242;
+    border-radius: 10%;
+    width:15rem;
+    height: 9.5rem;
+    padding-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.card-title {
+    color: #e41717;
+    font-weight: 900;
+    font-size: 0.9rem;
+    padding-top: 4%;
+}
+
+.card-image {
+    width: 40%;
+    height: 25%;
+} 
+
+.card-content {
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
+.onde-utilizar-info {
+    margin-top: 30px;
+    font-size: 90%;
+}
+
+.onde-utilizar-newsletter {
+    padding-top: 10px;
+}
+
+.btn3 {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+}
+
+.rounded {
+    border-radius: 1rem!important;
+}
+
+.form-control {
+    width: 400px;
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    background-color:black;
+    color: white;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 200;
+}
+}
+
+/*           MEDIA QUERY 768px ---> 991px  BREAKPOINT MD        */
+@media only screen and (min-width: 940px) {
+
+/* --- NAVBAR ---- */
+
+.body {
+    font-family: 'Nunito', sans-serif;
+    background-color: black;    
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* --- NAVBAR ---- */
+
+.ml-5, .mx-5 {
+    margin-left: 5rem!important;
+}
+
+.mr-5, .mx-5 {
+    margin-right: 5rem!important;
+}
+
+.nav-item:hover{
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+    transition: 0.5s;
+}
+
+.nav-item.active{
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,.75);
+    transition: 0.5s;
+}
+
+.nav-item-r {
+    background-color: #ff0000;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.bg-dark {
+    background-color: #000000a1 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav {
+    margin-right: 7em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 20px;
+}
+
+.nav-item .current {
+    margin-bottom: 2px;
+    border-bottom: 2px solid red;
+}
+
+.logosig {
+    width: auto;
+    height: 58px;;
+    margin-left: 7em;
+}
+
+/* ---- E JURIDICO SECTION ---- */
+
+#ejuridico {
+    background-image: url("/assets/img/background-1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 122vh;
+}
+
+.header-ejuridico {
+    padding-top: 5%;    
     margin-top: 3%;
     color: white;
 }
@@ -903,21 +1360,33 @@ p {
     font-weight: 100;
 }
 
+.roll-button {
+    position: absolute;
+    z-index: 3;
+    bottom: 5;
+    width: 100%;
+    min-height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 #roll-button {
-    width: 25%;
+    width: 4%;
 }
 
 .content-ejuridico p{
     font-size: 130%;
     font-weight: 600;
-    color: white;
+    color: white;   
     padding-top: 2%;
 }
 
 /* ---- COMPRAR SECTION ----*/
 
 #comprar {
-    height: 110vmax;
+    height: 150vh;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1144,7 +1613,7 @@ p {
     width:12.8rem;
     height: 12.5rem;
     padding-top: 8%;
-    margin-right: 4%;
+    margin-right: 5%;
     margin-left: 4%;
 }
 
@@ -1152,11 +1621,11 @@ p {
     background: white;
     color: #444242;
     border-radius: 10%;
-    width:17rem;
+    width: 21rem;
     height: 12.5rem;
     padding-top: 3%;
-    margin-right: 4%;
-    margin-left: 4%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 .card-title {
@@ -1200,7 +1669,7 @@ p {
 }
 
 .form-control {
-    width: 300px;
+    width: 500px;
 }
 
 .footer {
@@ -1220,7 +1689,7 @@ p {
 }
 
 /*           MEDIA QUERY 991px ---> 1199px BREAKPOINT MD        */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1025px) {
 
 /* --- NAVBAR ---- */
 
@@ -1321,8 +1790,20 @@ p {
     font-weight: 100;
 }
 
+.roll-button {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    width: 100%;
+    min-height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 #roll-button {
-    width: 25%;
+    width: 4%;
 }
 
 .content-ejuridico p{
@@ -1335,7 +1816,7 @@ p {
 /* ---- COMPRAR SECTION ----*/
 
 #comprar {
-    height: 50vmax;
+    height: 100vh;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1636,6 +2117,7 @@ p {
     font-weight: 200;
 }
 }
+
 
 /*           MEDIA QUERY 1200px BREAKPOINT MD        */
 @media only screen and (min-width: 1200px) {
