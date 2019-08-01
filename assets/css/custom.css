@@ -105,25 +105,18 @@ p {
 }
 
 .roll-button {
-    position: absolute;
-    z-index: 3;
-    bottom: 5;
-    width: 100%;
-    min-height: 30px;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    text-align: center;
+    margin-top: 5%;
 }
 
 #roll-button {
-    width: 3%;
+    width: 25%;
 }
 
 /* ---- COMPRAR SECTION ----*/
 
 #comprar {
-    height: 45vmax;
+    min-height: 100vh;
+    height: auto;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -217,6 +210,7 @@ p {
 /* ---- OPCOES SECTION ---- */
 
 #opcoes {
+    min-height: 100vh;
     height: auto;
     padding-bottom: 25px;
     background: white;
@@ -293,6 +287,7 @@ p {
     font-size: 115%;
     font-weight: 600;
     text-align: justify;
+    padding: 0 2%;
 }
 
 .opcoes-card-duration {
@@ -310,8 +305,9 @@ p {
 /* ---- ONDE UTILIZAR SECTION ---- */
 
 #onde-utilizar {
+    min-height: 100vh;
+    height: auto;
     background-image: url(/assets/img/background-3.png);
-    height: 50vmax;
     background-size: auto;
     background-position: center;
     background-attachment: fixed;
