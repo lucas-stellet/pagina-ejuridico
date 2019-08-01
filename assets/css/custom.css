@@ -115,7 +115,7 @@ p {
 /* ---- COMPRAR SECTION ----*/
 
 #comprar {
-    min-height: 100vh;
+    min-height: 110vh;
     height: auto;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
