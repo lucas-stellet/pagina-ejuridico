@@ -1,5 +1,5 @@
-/*           MEDIA QUERY 200px ---> 575px          */
-@media only screen and (min-width: 200px) and (max-width: 575px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
     .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(195,1,1,1 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
@@ -105,6 +105,10 @@
         padding-top: 20px;
     }
 
+    .button-image {
+        display: flex;
+    }
+
     .header-comprar {   
         margin-top: 25px;
     }
@@ -130,8 +134,8 @@
     }
 
     .comprar-image img{
-        height: 15%;
-        width: 20%;
+        height: 25%;
+        width: 30%;
     }
 
     .comprar-card {
@@ -356,8 +360,13 @@
     border-radius: 1rem!important;
 }
 
+.form-row {
+    display: flex;
+}
+
 .form-control {
-    width: 510px;
+    flex: auto;
+    width: inherit;
 }
 
 .modal-content {
@@ -384,112 +393,41 @@
     text-align: center;
     font-weight: 200;
 }
+} 
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    /* SEÇÃO EJURIDICO */
+    .header-ejuridico {
+        padding-top: 22%;    
+        margin-top: 3%;
+        color: white;
 }
 
-/*           MEDIA QUERY 576px ---> 767px  BREAKPOINT SM      */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    body {
-    font-family: 'Nunito', sans-serif;
-    background-color: black;    
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-
-/* --- NAVBAR ---- */
-
-.ml-5, .mx-5 {
-    margin-left: 5rem!important;
-}
-
-.mr-5, .mx-5 {
-    margin-right: 5rem!important;
-}
-
-.nav-item:hover{
-    margin-bottom: 2px;
-    border-bottom: 2px solid red;
-    transition: 0.5s;
-}
-
-.nav-item.active{
-    margin-bottom: 2px;
-    border-bottom: 2px solid red;
-}
-
-.nav-link:hover {
-    color: rgba(255,255,255,.75);
-    transition: 0.5s;
-}
-
-.nav-item-r {
-    background-color: #ff0000;
-}
-
-.nav-link {
-    font-weight: bolder;
-    font-size: 100%;
-}
-
-.bg-dark {
-    background-color: #000000a1 !important;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
-}
-
-.navbar-nav {
-    margin-right: 7em;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 20px;
-}
-
-.nav-item .current {
-    margin-bottom: 2px;
-    border-bottom: 2px solid red;
-}
-
-.logosig {
-    width: auto;
-    height: 50px;
-    margin-left: 7em;
-}
-
-/* ---- E JURIDICO SECTION ---- */
-
-#ejuridico {
-    background-image: url("/assets/img/background-1.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    padding-left: 10%;
-    padding-right: 10%;
-    height: auto;
-    min-height: 100vh;
+    .header-ejuridico p{
+        font-size: 320%;
+        font-weight: 100;
+        text-align: center;
 }
 
 
-.roll-button {
-    margin-top: 12%;
+    .content-ejuridico p{
+        font-size: 100%;
+        font-weight: 700;
+        color: white;
+        padding-top: 2%;
+        text-align: justify;
 }
 
 #roll-button {
     width: 20%;
 }
 
-/* ---- COMPRAR SECTION ----*/
+/* SEÇÃO COMPRAR*/
 
 #comprar {
+    min-height: 120vh;
     height: auto;
-    min-height: 198vh;
     background-image: url(/assets/img/background-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -518,18 +456,372 @@ p {
 }
 
 .comprar-text{
-    font-size: 100%;
+    font-size: 110%;
     font-weight: 700;
-    text-align: center;
+    text-align: right;
     
 }
 
-.comprar-card {
-    padding-top: 18px;
-    padding-left: 4px;
-    padding-right: 4px;
+.comprar-image img{
+    width: 75px;
+    height: 65px;
 }
 
+.btn{
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 115px;
+    height: 25px;
+    font-weight: 800;
+    padding-top: 1px;  
+    font-size: 0.9rem;
+}
+
+.btn2 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 115px;
+    height: 25px;
+    font-weight: 800;
+    padding-top: 4px;  
+    font-size: 0.7rem;
+}
+
+.opcoes-margin {
+    height: 50px;
+}
+
+
+/* SEÇÃO OPÇÕES */
+
+.opcoes-header p{
+    font-size: 320%;
+    font-weight: 100;
+}
+
+.opcoes-card-row {
+    height: 400px;
+}
+
+.opcoes-card {
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 95%;
+    height: 55%;
+}
+
+.opcoes-card-title{
+    font-size: 130%;
+    font-weight: 800;
+}
+
+.opcoes-card-text {
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.opcoes-card-duration {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.opcoes-card-price {
+    font-size: 160%;
+    font-weight: 600;
+}
+
+/*  SEÇÃO ONDE-UTILIZAR */
+
+.onde-utilizar-header {
+    padding-top: 9%;
+    padding-bottom: 2%;
+}
+
+.onde-utilizar-header-title {
+    font-size: 320%;
+    font-weight: 100;
+}
+
+.onde-utilizar-header-subtitle {
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.onde-utilizar-card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 100%;
+}
+
+.card-content {
+    font-weight: 900;
+    font-size: 90%;
+}
+
+.onde-utilizar-info {
+    font-size: 90%;
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+       /* SEÇÃO EJURIDICO */
+    .header-ejuridico {
+        padding-top: 10%;    
+        margin-top: 3%;
+        color: white;
+}
+
+    .header-ejuridico p{
+        font-size: 320%;
+        font-weight: 100;
+        text-align: center;
+}
+
+
+    .content-ejuridico p{
+        font-size: 100%;
+        font-weight: 700;
+        color: white;
+        padding-top: 2%;
+        text-align: justify;
+}
+
+#roll-button {
+    width: 20%;
+}
+
+/* SEÇÃO COMPRAR*/
+
+#comprar {
+    min-height: 120vh;
+    height: auto;
+    background-image: url(/assets/img/background-2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.comprar-row {
+    padding: 15px;
+}
+
+.header-comprar{
+    padding-top: 5%;    
+    margin-top: 3%;
+    color: white;
+}
+
+.header-comprar h1 {
+    font-size: 320%;
+    font-weight: 100;
+}
+
+.comprar-text{
+    font-size: 100%;
+    font-weight: 700;
+    text-align: right;
+    
+}
+
+.comprar-image img{
+    width: 65px;
+    height: 55px;
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 115px;
+    height: 25px;
+    font-weight: 800;
+    padding-top: 1px;  
+    font-size: 0.9rem;
+}
+
+.btn2 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 115px;
+    height: 25px;
+    font-weight: 800;
+    padding-top: 4px;  
+    font-size: 0.7rem;
+}
+
+.opcoes-margin {
+    height: 50px;
+}
+
+
+/* SEÇÃO OPÇÕES */
+
+.opcoes-header p{
+    font-size: 320%;
+    font-weight: 100;
+}
+
+.opcoes-card-row {
+    height: 400px;
+}
+
+.opcoes-card {
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 95%;
+    height: 55%;
+}
+
+.opcoes-card-img {
+    height: 123px; 
+    width:195px;
+}
+
+.opcoes-card-title{
+    font-size: 120%;
+    font-weight: 800;
+}
+
+.opcoes-card-text {
+    font-size: 100%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.opcoes-card-duration {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.opcoes-card-price {
+    font-size: 160%;
+    font-weight: 600;
+}
+
+/*  SEÇÃO ONDE-UTILIZAR */
+
+.onde-utilizar-header {
+    padding-top: 9%;
+    padding-bottom: 2%;
+}
+
+.onde-utilizar-header-title {
+    font-size: 320%;
+    font-weight: 100;
+}
+
+.onde-utilizar-header-subtitle {
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.onde-utilizar-card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.onde-utilizar-card1 {
+    width:12.8rem;
+    height: 12rem;
+    padding-top: 8%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.onde-utilizar-card2 {
+    width:17rem;
+    height: 12rem;
+    padding-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 100%;
+}
+
+.card-content {
+    font-weight: 900;
+    font-size: 90%;
+}
+
+.onde-utilizar-info {
+    font-size: 95%;
+}
+
+.footer p {
+    font-size: 70%;
+    text-align: center;
+    font-weight: 200;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1023px){
+    /* SEÇÃO EJURIDICO */
+    .header-ejuridico {
+        padding-top: 10%;    
+        margin-top: 3%;
+        color: white;
+}
+
+    .header-ejuridico p{
+        font-size: 300%;
+        font-weight: 100;
+        text-align: center;
+}
+
+
+    .content-ejuridico p{
+        font-size: 100%;
+        font-weight: 700;
+        color: white;
+        padding-top: 2%;
+        text-align: justify;
+}
+
+#roll-button {
+    width: 20%;
+}
+
+/* SEÇÃO COMPRAR*/
+
+.comprar-row {
+    padding: 15px;
+}
+
+.header-comprar{
+    padding-top: 8%;    
+    margin-top: 3%;
+    color: white;
+}
+
+.header-comprar h1 {
+    font-size: 300%;
+    font-weight: 100;
+}
+
+.comprar-text{
+    font-size: 100%;
+    font-weight: 700;
+    text-align: right;
+    
+}
 
 .comprar-image img{
     width: 70px;
@@ -558,110 +850,180 @@ p {
     font-size: 0.7rem;
 }
 
-.button-content2 {
-    padding-top: 4%;    
-}
-
-    
-.button-content2 p{
-    font-size: 0.6rem;
-}
-
-.comprar-margem {
-    height: 56px; 
-}
-
-.modal-content {
-    color: black;
-    font-family: 'Nunito', sans-serif;
-    text-align: left;
-    line-height: 40px;
-    background-color: rgba(255, 255, 255, 0.86);
-    padding: 20px;
-}
-
-/* ---- OPCOES SECTION ---- */
-
-#opcoes {
-    height: auto;
-    padding-bottom: 25px;
-    background: white;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: cover;
-    color: #444242;
-    text-align: center;
-}
-
 .opcoes-margin {
-    margin-top: -5%;
+    height: 50px;
 }
 
-.opcoes-header {
-    background-color: #7b0000;
-    padding-left: 0px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
+
+/* SEÇÃO OPÇÕES */
 
 .opcoes-header p{
-    font-size: 320%;
+    font-size: 300%;
     font-weight: 100;
-    color: white;
-    position: relative;
-}
-
-.opcoes-main {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 0.5%;
 }
 
 .opcoes-card-row {
-    height: auto;
+    height: 250px;
 }
 
 .opcoes-card {
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin-bottom: 4%;
+    margin-top: 4%;
     width: 95%;
     height: 55%;
 }
 
-.opcoes-btn {
+.opcoes-card-title{
+    font-size: 130%;
+    font-weight: 800;
+}
+
+.opcoes-card-text {
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.opcoes-card-duration {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.opcoes-card-price {
+    font-size: 160%;
+    font-weight: 600;
+}
+
+/*  SEÇÃO ONDE-UTILIZAR */
+
+.onde-utilizar-header {
+    padding-top: 9%;
+    padding-bottom: 2%;
+}
+
+.onde-utilizar-header-title {
+    font-size: 320%;
+    font-weight: 100;
+}
+
+.onde-utilizar-header-subtitle {
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.onde-utilizar-card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 100%;
+}
+
+.card-content {
+    font-weight: 900;
+    font-size: 90%;
+}
+
+.onde-utilizar-info {
+    font-size: 90%;
+}
+} 
+
+@media only screen and (min-width: 1024px) and (max-width: 1352px){
+
+   /* SEÇÃO EJURIDICO */
+    .header-ejuridico {
+        padding-top: 14%;    
+        margin-top: 3%;
+        color: white;
+}
+
+    .header-ejuridico p{
+        font-size: 360%;
+        font-weight: 100;
+}
+
+
+    .content-ejuridico p{
+        font-size: 120%;
+        font-weight: 700;
+        color: white;
+        padding-top: 2%;
+}
+
+.roll-button {
+    padding-top: 35px;
+}
+#roll-button {
+    width: 20%;
+}
+
+/* SEÇÃO COMPRAR*/
+.comprar-row {
+    padding: 15px;
+}
+
+.header-comprar{
+    padding-top: 5%;    
+    margin-top: 3%;
+    color: white;
+}
+
+.header-comprar h1 {
+    font-size: 350%;
+    font-weight: 100;
+}
+
+.comprar-text{
+    font-size: 110%;
+    font-weight: 700;
+    text-align: right;
+    
+}
+
+.comprar-image img{
+    width: 75px;
+    height: 65px;
+}
+
+.btn{
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
-    font-weight: 800;  
-    font-size: 0.8rem;
-    margin-bottom: 2%;
+    width: 115px;
+    height: 25px;
+    font-weight: 800;
+    padding-top: 1px;  
+    font-size: 0.9rem;
 }
 
-.opcoes-btn:hover {
-    color: #fff;
-    background-color: #c82333;
-    border-color: #bd2130;
+.btn2 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 115px;
+    height: 25px;
+    font-weight: 800;
+    padding-top: 4px;  
+    font-size: 0.7rem;
 }
 
-.opcoes-card-img {
-    height: 120px; 
-    width:200px;
+
+/* SEÇÃO OPÇÕES */
+.opcoes-header p{
+    font-size: 350%;
+    font-weight: 100;
 }
 
 .opcoes-card-title{
     font-size: 150%;
-    font-weight: 600;
-    color: #e41717;
+    font-weight: 800;
 }
 
 .opcoes-card-text {
-    font-size: 115%;
+    font-size: 100%;
     font-weight: 600;
-    text-align: justify;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
 .opcoes-card-duration {
@@ -674,25 +1036,7 @@ p {
     font-weight: 600;
 }
 
-
-
-/* ---- ONDE UTILIZAR SECTION ---- */
-
-#onde-utilizar {
-    background-image: url(/assets/img/background-3.png);
-    height: auto;
-    background-size: auto;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-}
-
-.onde-utilizar-header {
-    padding-top: 6%;
-    padding-bottom: 2%;
-}
+/*  SEÇÃO ONDE-UTILIZAR */
 
 .onde-utilizar-header-title {
     font-size: 350%;
@@ -700,222 +1044,223 @@ p {
 }
 
 .onde-utilizar-header-subtitle {
-    font-size: 1.5rem;
+    font-size: 130%;
     font-weight: 600;
 }
 
-.onde-utilizar-cards {
-    padding-left: 15%;
-    padding-right: 15%;
+.card-title {
+    font-weight: 900;
+    font-size: 110%;
+}
+
+.card-content {
+    font-weight: 900;
+    font-size: 100%;
+}
+
+.onde-utilizar-info {
+    font-size: 100%;
+}
+
+}
+
+@media only screen and (min-width: 1353px) and (min-height: 784px) {
+    /* SEÇÃO EJURIDICO */
+    .header-ejuridico {
+        padding-top: 5%;    
+        margin-top: 3%;
+        color: white;
+}
+
+    .header-ejuridico p{
+        font-size: 450%;
+        font-weight: 100;
+        text-align: center;
+}
+
+
+    .content-ejuridico p{
+        font-size: 180%;
+        font-weight: 700;
+        color: white;
+        padding-top: 2%;
+        text-align: justify;
+}
+
+#roll-button {
+    width: 30%;
+}
+
+/* SEÇÃO COMPRAR*/
+
+.comprar-row {
+    padding: 15px;
+}
+
+.header-comprar{
+    padding-top: 5%;    
+    margin-top: 3%;
+    color: white;
+}
+
+.header-comprar h1 {
+    font-size: 450%;
+    font-weight: 100;
+}
+
+.comprar-text{
+    font-size: 160%;
+    font-weight: 700;
+    text-align: right;
+    
+}
+
+.comprar-image img{
+    width: 90px;
+    height: 80px;
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 130px;
+    height: 25px;
+    font-weight: 800;
+    padding-top: 1px;  
+    font-size: 1rem;
+}
+
+.btn2 {
+    border-radius: 50px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 130px;
+    height: 25px;
+    font-weight: 800;
+    padding-top: 4px;  
+    font-size: 0.8rem;
+}
+
+.opcoes-margin {
+    height: 50px;
+}
+
+
+/* SEÇÃO OPÇÕES */
+
+.opcoes-header p{
+    font-size: 450%;
+    font-weight: 100;
+}
+
+.opcoes-card-row {
+    height: 250px;
+}
+
+.opcoes-card {
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 95%;
+    height: 55%;
+}
+
+.opcoes-card-img {
+    height: 163px; 
+    width:235px;
+}
+
+.opcoes-card-title{
+    padding-top: 8px;
+    font-size: 200%;
+    font-weight: 800;
+}
+
+.opcoes-card-text {
+    font-size: 140%;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.opcoes-card-duration {
+    font-size: 160%;
+    font-weight: 600;
+}
+
+.opcoes-card-price {
+    font-size: 200%;
+    font-weight: 600;
+}
+
+/*  SEÇÃO ONDE-UTILIZAR */
+
+.onde-utilizar-header {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.onde-utilizar-header-title {
+    font-size: 450%;
+    font-weight: 100;
+}
+
+.onde-utilizar-header-subtitle {
+    font-size: 180%;
+    font-weight: 600;
+}
+
+.onde-utilizar-card {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .onde-utilizar-card1 {
-    background: white;
-    color: #444242;
-    border-radius: 10%;
-    width:12.8rem;
-    height: 12.5rem;
-    margin-top: 5%;
+    width:14.5rem;
+    height: 15.5rem;
     padding-top: 8%;
     margin-right: 4%;
     margin-left: 4%;
 }
 
 .onde-utilizar-card2 {
-    background: white;
-    color: #444242;
-    border-radius: 10%;
-    width:17rem;
-    height: 12.5rem;
-    margin-top: 5%;
+    width:20rem;
+    height: 15.5rem;
     padding-top: 3%;
     margin-right: 4%;
     margin-left: 4%;
 }
 
-.card-title {
-    color: #e41717;
-    font-weight: 900;
-    font-size: 1.1rem;
-    padding-top: 4%;
-}
-
 .card-image {
-    width: 6rem;
-    height: 3.5rem;
+    width: 90px;
+    height: 80px;
 } 
+
+.card-title {
+    font-weight: 900;
+    font-size: 160%;
+}
 
 .card-content {
     font-weight: 900;
+    font-size: 120%;
 }
 
 .onde-utilizar-info {
-    font-size: 98%;
-    margin-top: 30px;
-    text-align: center;
-}
-
-.onde-utilizar-newsletter {
-    padding-top: 10px;
-}
-
-.btn3 {
-    background-color: #ff0000;
-    border-color: #ff0000;
-    font-weight: 600;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 0.9rem;
-    position: relative;
-    bottom: 4px;
-    right: 5px;
-}
-
-.rounded {
-    border-radius: 1rem!important;
+    font-size: 150%;
 }
 
 .form-control {
-    width: 620px;
+    width: 800px;
 }
 
-.footer {
-    font-family: 'Nunito', sans-serif;
-    background-color:black;
-    color: white;
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
+.btn3 {
+    font-size: 1.2rem;
+    bottom: 8px;
 }
 
 .footer p {
-    font-size: 1rem;
+    font-size: 120%;
     text-align: center;
     font-weight: 200;
 }
 }
-
-/* MEDIA QUERY CARDS SEÇÃO OPÇÕES  */
-@media only screen and (min-width: 576px) and (max-width: 1184px) {
-
-    #opcoes {
-    height: auto;
-    padding-bottom: 25px;
-    background: white;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: cover;
-    color: #444242;
-    text-align: center;
-}
-
-.opcoes-margin {
-    margin-top: -5%;
-}
-
-.opcoes-header {
-    background-color: #7b0000;
-    padding-left: 0px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.opcoes-header p{
-    font-size: 320%;
-    font-weight: 100;
-    color: white;
-    position: relative;
-}
-
-.opcoes-main {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 0.5%;
-}
-
-.opcoes-card-row {
-    height: auto;
-}
-
-.opcoes-card {
-    margin-bottom: 1%;
-    margin-top: 1%;
-    width: 95%;
-    height: 55%;
-}
-
-.opcoes-btn {
-    border-radius: 50px;
-    background-color: #ff0000;
-    border-color: #ff0000;
-    font-weight: 800;  
-    font-size: 0.8rem;
-    margin-bottom: 2%;
-}
-
-.opcoes-btn:hover {
-    color: #fff;
-    background-color: #c82333;
-    border-color: #bd2130;
-}
-
-.opcoes-card-img {
-    height: 120px; 
-    width:200px;
-}
-
-.opcoes-card-title{
-    font-size: 150%;
-    font-weight: 600;
-    color: #e41717;
-}
-
-.opcoes-card-text {
-    font-size: 115%;
-    font-weight: 600;
-    text-align: justify;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.opcoes-card-duration {
-    font-size: 115%;
-    font-weight: 600;
-}
-
-.opcoes-card-price {
-    font-size: 180%;
-    font-weight: 600;
-}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 897px) {
-
-   #comprar {
-    height: auto;
-    min-height: 153vh;
-    background-image: url(/assets/img/background-2.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-} 
-
-}
-
-
-
-
-
-
-
-
-
-
