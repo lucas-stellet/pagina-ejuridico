@@ -105,6 +105,10 @@
         padding-top: 20px;
     }
 
+    .button-image {
+        display: flex;
+    }
+
     .header-comprar {   
         margin-top: 25px;
     }
@@ -130,8 +134,8 @@
     }
 
     .comprar-image img{
-        height: 15%;
-        width: 20%;
+        height: 25%;
+        width: 30%;
     }
 
     .comprar-card {
@@ -1061,28 +1065,22 @@
 }
 
 @media only screen and (min-width: 1353px) and (min-height: 784px) {
-    /* NAVBAR */
-
-    .nav-link {
-    font-weight: bolder;
-    font-size: 180%;
-}
     /* SEÇÃO EJURIDICO */
     .header-ejuridico {
-        padding-top: 9%;    
+        padding-top: 5%;    
         margin-top: 3%;
         color: white;
 }
 
     .header-ejuridico p{
-        font-size: 550%;
+        font-size: 450%;
         font-weight: 100;
         text-align: center;
 }
 
 
     .content-ejuridico p{
-        font-size: 230%;
+        font-size: 180%;
         font-weight: 700;
         color: white;
         padding-top: 2%;
@@ -1095,11 +1093,6 @@
 
 /* SEÇÃO COMPRAR*/
 
-#comprar {
-    min-height: 100vh;
-    height: auto;
-}
-
 .comprar-row {
     padding: 15px;
 }
@@ -1111,60 +1104,58 @@
 }
 
 .header-comprar h1 {
-    font-size: 550%;
+    font-size: 450%;
     font-weight: 100;
 }
 
 .comprar-text{
-    font-size: 180%;
+    font-size: 160%;
     font-weight: 700;
     text-align: right;
     
 }
 
 .comprar-image img{
-    width: 110px;
-    height: 120px;
+    width: 90px;
+    height: 80px;
 }
 
 .btn{
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
-    width: 165px;
-    height: 38px;
+    width: 130px;
+    height: 25px;
     font-weight: 800;
     padding-top: 1px;  
-    padding-left: 15px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .btn2 {
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
-    width: 165px;
-    height: 38px;
+    width: 130px;
+    height: 25px;
     font-weight: 800;
-    padding-top: 4px; 
-    padding-left: 15px; 
-    font-size: 1rem;
+    padding-top: 4px;  
+    font-size: 0.8rem;
 }
 
 .opcoes-margin {
-    height: 1px;
+    height: 50px;
 }
 
 
 /* SEÇÃO OPÇÕES */
 
 .opcoes-header p{
-    font-size: 550%;
+    font-size: 450%;
     font-weight: 100;
 }
 
 .opcoes-card-row {
-    height: 400px;
+    height: 250px;
 }
 
 .opcoes-card {
@@ -1175,59 +1166,46 @@
 }
 
 .opcoes-card-img {
-    height: 183px; 
-    width:255px;
+    height: 163px; 
+    width:235px;
 }
 
 .opcoes-card-title{
     padding-top: 8px;
-    font-size: 240%;
+    font-size: 200%;
     font-weight: 800;
 }
 
 .opcoes-card-text {
-    font-size: 180%;
+    font-size: 140%;
     font-weight: 600;
     text-align: justify;
 }
 
 .opcoes-card-duration {
-    font-size: 180%;
+    font-size: 160%;
     font-weight: 600;
 }
 
 .opcoes-card-price {
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 600;
 }
-
-.opcoes-btn {
-    border-radius: 50px;
-    background-color: #ff0000;
-    border-color: #ff0000;
-    font-weight: 800;  
-    font-size: 1.2rem;
-}
-
-.opcoes-margin {
-    margin-top: 5%;
-}
-
 
 /*  SEÇÃO ONDE-UTILIZAR */
 
 .onde-utilizar-header {
-    padding-top: 7%;
+    padding-top: 4%;
     padding-bottom: 2%;
 }
 
 .onde-utilizar-header-title {
-    font-size: 550%;
+    font-size: 450%;
     font-weight: 100;
 }
 
 .onde-utilizar-header-subtitle {
-    font-size: 250%;
+    font-size: 180%;
     font-weight: 600;
 }
 
@@ -1237,53 +1215,52 @@
 }
 
 .onde-utilizar-card1 {
-    width:16.5rem;
-    height: 18.5rem;
+    width:14.5rem;
+    height: 15.5rem;
     padding-top: 8%;
     margin-right: 4%;
     margin-left: 4%;
 }
 
 .onde-utilizar-card2 {
-    width:24rem;
-    height: 18.5rem;
+    width:20rem;
+    height: 15.5rem;
     padding-top: 3%;
     margin-right: 4%;
     margin-left: 4%;
 }
 
 .card-image {
-    width: 110px;
-    height: 100px;
+    width: 90px;
+    height: 80px;
 } 
 
 .card-title {
     font-weight: 900;
-    font-size: 180%;
+    font-size: 160%;
 }
 
 .card-content {
     font-weight: 900;
-    font-size: 140%;
+    font-size: 120%;
 }
 
 .onde-utilizar-info {
-    font-size: 180%;
+    font-size: 150%;
 }
 
 .form-control {
-    width: 900px;
+    width: 800px;
 }
 
 .btn3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     bottom: 8px;
 }
 
 .footer p {
-    font-size: 160%;
+    font-size: 120%;
     text-align: center;
     font-weight: 200;
 }
-
 }
