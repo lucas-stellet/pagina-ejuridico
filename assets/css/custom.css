@@ -194,10 +194,6 @@ p {
     font-size: 0.6rem;
 }
 
-.comprar-margem {
-    height: 56px; 
-}
-
 .modal-content {
     color: black;
     font-family: 'Nunito', sans-serif;
@@ -224,7 +220,7 @@ p {
 }
 
 .opcoes-margin {
-    margin-top: -5%;
+    margin-bottom: -5%;
 }
 
 .opcoes-header {
@@ -398,10 +394,8 @@ p {
     border-radius: 1rem!important;
 }
 
-
-
 .form-control {
-    ;
+    width: 500px;
 }
 
 .footer {
