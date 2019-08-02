@@ -356,8 +356,13 @@
     border-radius: 1rem!important;
 }
 
+.form-row {
+    display: flex;
+}
+
 .form-control {
-    width: 510px;
+    flex: auto;
+    width: inherit;
 }
 
 .modal-content {
