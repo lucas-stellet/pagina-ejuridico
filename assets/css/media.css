@@ -933,8 +933,7 @@
 @media only screen and (min-width: 1024px) and (max-width: 1352px){
 
    /* SEÇÃO EJURIDICO */
-    .header-ejuridico {
-        padding-top: 14%;    
+    .header-ejuridico {   
         margin-top: 3%;
         color: white;
 }
