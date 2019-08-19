@@ -1,6 +1,6 @@
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: black;    
+    background-color: black;
 }
 
 p {
@@ -18,19 +18,19 @@ p {
     margin-right: 5rem!important;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     margin-bottom: 2px;
     border-bottom: 2px solid red;
     transition: 0.5s;
 }
 
-.nav-item.active{
+.nav-item.active {
     margin-bottom: 2px;
     border-bottom: 2px solid red;
 }
 
 .nav-link:hover {
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255, .75);
     transition: 0.5s;
 }
 
@@ -86,18 +86,17 @@ p {
 }
 
 .header-ejuridico {
-    padding-top: 5%;    
+    padding-top: 5%;
     margin-top: 3%;
     color: white;
 }
 
-.header-ejuridico p{
+.header-ejuridico p {
     font-size: 350%;
     font-weight: 100;
 }
 
-
-.content-ejuridico p{
+.content-ejuridico p {
     font-size: 130%;
     font-weight: 600;
     color: white;
@@ -133,8 +132,8 @@ p {
     padding: 15px;
 }
 
-.header-comprar{
-    padding-top: 5%;    
+.header-comprar {
+    padding-top: 5%;
     margin-top: 3%;
     color: white;
 }
@@ -144,11 +143,10 @@ p {
     font-weight: 100;
 }
 
-.comprar-text{
+.comprar-text {
     font-size: 100%;
     font-weight: 700;
     text-align: right;
-    
 }
 
 .comprar-card {
@@ -157,20 +155,19 @@ p {
     padding-right: 4px;
 }
 
-
-.comprar-image img{
+.comprar-image img {
     width: 70px;
     height: 60px;
 }
 
-.btn{
+.btn {
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
     width: 115px;
     height: 25px;
     font-weight: 800;
-    padding-top: 1px;  
+    padding-top: 1px;
     font-size: 0.9rem;
 }
 
@@ -181,16 +178,15 @@ p {
     width: 115px;
     height: 25px;
     font-weight: 800;
-    padding-top: 4px;  
+    padding-top: 4px;
     font-size: 0.7rem;
 }
 
 .button-content2 {
-    padding-top: 4%;    
+    padding-top: 4%;
 }
 
-    
-.button-content2 p{
+.button-content2 p {
     font-size: 0.6rem;
 }
 
@@ -230,7 +226,7 @@ p {
     padding-bottom: 1%;
 }
 
-.opcoes-header p{
+.opcoes-header p {
     font-size: 320%;
     font-weight: 100;
     color: white;
@@ -258,7 +254,7 @@ p {
     border-radius: 50px;
     background-color: #ff0000;
     border-color: #ff0000;
-    font-weight: 800;  
+    font-weight: 800;
     font-size: 0.8rem;
 }
 
@@ -269,11 +265,11 @@ p {
 }
 
 .opcoes-card-img {
-    height: 143px; 
-    width:215px;
+    height: 143px;
+    width: 215px;
 }
 
-.opcoes-card-title{
+.opcoes-card-title {
     font-size: 150%;
     font-weight: 800;
     color: #e41717;
@@ -295,8 +291,6 @@ p {
     font-size: 180%;
     font-weight: 600;
 }
-
-
 
 /* ---- ONDE UTILIZAR SECTION ---- */
 
@@ -336,7 +330,7 @@ p {
     background: white;
     color: #444242;
     border-radius: 10%;
-    width:12.8rem;
+    width: 12.8rem;
     height: 12.5rem;
     padding-top: 8%;
     margin-right: 4%;
@@ -347,7 +341,7 @@ p {
     background: white;
     color: #444242;
     border-radius: 10%;
-    width:17rem;
+    width: 17rem;
     height: 12.5rem;
     padding-top: 3%;
     margin-right: 4%;
@@ -364,7 +358,7 @@ p {
 .card-image {
     width: 6rem;
     height: 3.5rem;
-} 
+}
 
 .card-content {
     font-weight: 900;
@@ -399,9 +393,10 @@ p {
 }
 
 /* FOOTER */
+
 .footer {
     font-family: 'Nunito', sans-serif;
-    background-color:black;
+    background-color: black;
     color: white;
     padding-top: 2%;
     padding-left: 10%;
@@ -412,4 +407,12 @@ p {
     font-size: 1rem;
     text-align: center;
     font-weight: 200;
+}
+
+.secret {
+    color: #000000;
+}
+
+.secret:hover {
+    color: white;
 }
