@@ -415,4 +415,5 @@ p {
 
 .secret:hover {
     color: white;
+    transition-delay: 3s;
 }
