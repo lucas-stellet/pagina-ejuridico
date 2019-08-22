@@ -44,7 +44,7 @@ p {
 }
 
 .bg-dark {
-    background-color: #000000a1 !important;
+    background-color: rgba(0,0,0,0.8) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
