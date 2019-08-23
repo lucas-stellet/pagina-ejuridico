@@ -890,8 +890,8 @@
         text-align: center;
     }
     .content-ejuridico p {
-        font-size: 150%;
-        font-weight: 600;
+        font-size: 135%;
+        font-weight: 500;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -910,12 +910,12 @@
     }
     .header-ejuridico p {
         font-size: 350%;
-        font-weight: 100;
+        font-weight: 200;
         text-align: center;
     }
     .content-ejuridico p {
         font-size: 150%;
-        font-weight: 600;
+        font-weight: 500;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -947,7 +947,7 @@
     }
     .content-ejuridico p {
         font-size: 150%;
-        font-weight: 600;
+        font-weight: 500;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -972,7 +972,7 @@
     }
     .content-ejuridico p {
         font-size: 180%;
-        font-weight: 600;
+        font-weight: 500;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -1119,4 +1119,4 @@
         text-align: center;
         font-weight: 200;
     }
-}
+}   
