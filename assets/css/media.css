@@ -340,12 +340,10 @@
     }
     .header-ejuridico p {
         font-size: 320%;
-        font-weight: 100;
         text-align: center;
     }
     .content-ejuridico p {
         font-size: 100%;
-        font-weight: 700;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -378,11 +376,9 @@
     }
     .header-comprar h1 {
         font-size: 350%;
-        font-weight: 100;
     }
     .comprar-text {
         font-size: 110%;
-        font-weight: 700;
         text-align: right;
     }
     .comprar-image img {
@@ -395,7 +391,6 @@
         border-color: #ff0000;
         width: 115px;
         height: 25px;
-        font-weight: 800;
         padding-top: 1px;
         font-size: 0.9rem;
     }
@@ -405,7 +400,6 @@
         border-color: #ff0000;
         width: 115px;
         height: 25px;
-        font-weight: 800;
         padding-top: 4px;
         font-size: 0.7rem;
     }
@@ -415,7 +409,6 @@
     /* SEÇÃO OPÇÕES */
     .opcoes-header p {
         font-size: 320%;
-        font-weight: 100;
     }
     .opcoes-card-row {
         height: 400px;
@@ -428,19 +421,15 @@
     }
     .opcoes-card-title {
         font-size: 130%;
-        font-weight: 800;
     }
     .opcoes-card-text {
         font-size: 100%;
-        font-weight: 600;
     }
     .opcoes-card-duration {
         font-size: 110%;
-        font-weight: 600;
     }
     .opcoes-card-price {
         font-size: 160%;
-        font-weight: 600;
     }
     /*  SEÇÃO ONDE-UTILIZAR */
     .onde-utilizar-header {
@@ -449,22 +438,18 @@
     }
     .onde-utilizar-header-title {
         font-size: 320%;
-        font-weight: 100;
     }
     .onde-utilizar-header-subtitle {
         font-size: 120%;
-        font-weight: 600;
     }
     .onde-utilizar-card {
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .card-title {
-        font-weight: 900;
         font-size: 100%;
     }
     .card-content {
-        font-weight: 900;
         font-size: 90%;
     }
     .onde-utilizar-info {
@@ -483,12 +468,10 @@
     }
     .header-ejuridico p {
         font-size: 320%;
-        font-weight: 100;
         text-align: center;
     }
     .content-ejuridico p {
         font-size: 100%;
-        font-weight: 700;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -521,11 +504,9 @@
     }
     .header-comprar h1 {
         font-size: 320%;
-        font-weight: 100;
     }
     .comprar-text {
         font-size: 100%;
-        font-weight: 700;
         text-align: right;
     }
     .comprar-image img {
@@ -538,7 +519,6 @@
         border-color: #ff0000;
         width: 115px;
         height: 25px;
-        font-weight: 800;
         padding-top: 1px;
         font-size: 0.9rem;
     }
@@ -548,7 +528,6 @@
         border-color: #ff0000;
         width: 115px;
         height: 25px;
-        font-weight: 800;
         padding-top: 4px;
         font-size: 0.7rem;
     }
@@ -558,7 +537,6 @@
     /* SEÇÃO OPÇÕES */
     .opcoes-header p {
         font-size: 320%;
-        font-weight: 100;
     }
     .opcoes-card-row {
         height: 400px;
@@ -575,20 +553,16 @@
     }
     .opcoes-card-title {
         font-size: 120%;
-        font-weight: 800;
     }
     .opcoes-card-text {
         font-size: 100%;
-        font-weight: 600;
         text-align: center;
     }
     .opcoes-card-duration {
         font-size: 110%;
-        font-weight: 600;
     }
     .opcoes-card-price {
         font-size: 160%;
-        font-weight: 600;
     }
     /*  SEÇÃO ONDE-UTILIZAR */
     .onde-utilizar-header {
@@ -597,11 +571,9 @@
     }
     .onde-utilizar-header-title {
         font-size: 320%;
-        font-weight: 100;
     }
     .onde-utilizar-header-subtitle {
         font-size: 120%;
-        font-weight: 600;
     }
     .onde-utilizar-card {
         padding-top: 10px;
@@ -622,11 +594,9 @@
         margin-left: 4%;
     }
     .card-title {
-        font-weight: 900;
         font-size: 100%;
     }
     .card-content {
-        font-weight: 900;
         font-size: 90%;
     }
     .onde-utilizar-info {
@@ -635,7 +605,6 @@
     .footer p {
         font-size: 70%;
         text-align: center;
-        font-weight: 200;
     }
 }
 
@@ -650,12 +619,10 @@
     }
     .header-ejuridico p {
         font-size: 300%;
-        font-weight: 100;
         text-align: center;
     }
     .content-ejuridico p {
         font-size: 100%;
-        font-weight: 700;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -674,11 +641,9 @@
     }
     .header-comprar h1 {
         font-size: 300%;
-        font-weight: 100;
     }
     .comprar-text {
         font-size: 100%;
-        font-weight: 700;
         text-align: right;
     }
     .comprar-image img {
@@ -691,7 +656,6 @@
         border-color: #ff0000;
         width: 115px;
         height: 25px;
-        font-weight: 800;
         padding-top: 1px;
         font-size: 0.9rem;
     }
@@ -701,7 +665,6 @@
         border-color: #ff0000;
         width: 115px;
         height: 25px;
-        font-weight: 800;
         padding-top: 4px;
         font-size: 0.7rem;
     }
@@ -711,7 +674,6 @@
     /* SEÇÃO OPÇÕES */
     .opcoes-header p {
         font-size: 300%;
-        font-weight: 100;
     }
     .opcoes-card-row {
         height: 250px;
@@ -724,19 +686,15 @@
     }
     .opcoes-card-title {
         font-size: 130%;
-        font-weight: 800;
     }
     .opcoes-card-text {
         font-size: 100%;
-        font-weight: 600;
     }
     .opcoes-card-duration {
         font-size: 110%;
-        font-weight: 600;
     }
     .opcoes-card-price {
         font-size: 160%;
-        font-weight: 600;
     }
     /*  SEÇÃO ONDE-UTILIZAR */
     .onde-utilizar-header {
@@ -745,22 +703,18 @@
     }
     .onde-utilizar-header-title {
         font-size: 320%;
-        font-weight: 100;
     }
     .onde-utilizar-header-subtitle {
         font-size: 120%;
-        font-weight: 600;
     }
     .onde-utilizar-card {
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .card-title {
-        font-weight: 900;
         font-size: 100%;
     }
     .card-content {
-        font-weight: 900;
         font-size: 90%;
     }
     .onde-utilizar-info {
@@ -776,11 +730,9 @@
     }
     .header-ejuridico p {
         font-size: 360%;
-        font-weight: 100;
     }
     .content-ejuridico p {
         font-size: 120%;
-        font-weight: 700;
         color: white;
         padding-top: 2%;
     }
@@ -801,11 +753,9 @@
     }
     .header-comprar h1 {
         font-size: 350%;
-        font-weight: 100;
     }
     .comprar-text {
         font-size: 110%;
-        font-weight: 700;
         text-align: right;
     }
     .comprar-image img {
@@ -818,7 +768,6 @@
         border-color: #ff0000;
         width: 115px;
         height: 25px;
-        font-weight: 800;
         padding-top: 1px;
         font-size: 0.9rem;
     }
@@ -828,46 +777,36 @@
         border-color: #ff0000;
         width: 115px;
         height: 25px;
-        font-weight: 800;
         padding-top: 4px;
         font-size: 0.7rem;
     }
     /* SEÇÃO OPÇÕES */
     .opcoes-header p {
         font-size: 350%;
-        font-weight: 100;
     }
     .opcoes-card-title {
         font-size: 150%;
-        font-weight: 800;
     }
     .opcoes-card-text {
         font-size: 100%;
-        font-weight: 600;
     }
     .opcoes-card-duration {
         font-size: 115%;
-        font-weight: 600;
     }
     .opcoes-card-price {
         font-size: 180%;
-        font-weight: 600;
     }
     /*  SEÇÃO ONDE-UTILIZAR */
     .onde-utilizar-header-title {
         font-size: 350%;
-        font-weight: 100;
     }
     .onde-utilizar-header-subtitle {
         font-size: 130%;
-        font-weight: 600;
     }
     .card-title {
-        font-weight: 900;
         font-size: 110%;
     }
     .card-content {
-        font-weight: 900;
         font-size: 100%;
     }
     .onde-utilizar-info {
@@ -886,12 +825,10 @@
     }
     .header-ejuridico p {
         font-size: 350%;
-        font-weight: 100;
         text-align: center;
     }
     .content-ejuridico p {
         font-size: 135%;
-        font-weight: 500;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -910,12 +847,10 @@
     }
     .header-ejuridico p {
         font-size: 350%;
-        font-weight: 200;
         text-align: center;
     }
     .content-ejuridico p {
         font-size: 150%;
-        font-weight: 500;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -942,12 +877,10 @@
     }
     .header-ejuridico p {
         font-size: 350%;
-        font-weight: 100;
         text-align: center;
     }
     .content-ejuridico p {
         font-size: 150%;
-        font-weight: 500;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -967,12 +900,10 @@
     }
     .header-ejuridico p {
         font-size: 450%;
-        font-weight: 100;
         text-align: center;
     }
     .content-ejuridico p {
         font-size: 180%;
-        font-weight: 500;
         color: white;
         padding-top: 2%;
         text-align: justify;
@@ -991,11 +922,9 @@
     }
     .header-comprar h1 {
         font-size: 450%;
-        font-weight: 100;
     }
     .comprar-text {
         font-size: 133%;
-        font-weight: 600;
         text-align: right;
     }
     .comprar-image img {
@@ -1008,7 +937,6 @@
         border-color: #ff0000;
         width: 130px;
         height: 25px;
-        font-weight: 800;
         padding-top: 1px;
         font-size: 1rem;
     }
@@ -1018,7 +946,6 @@
         border-color: #ff0000;
         width: 130px;
         height: 25px;
-        font-weight: 800;
         padding-top: 4px;
         font-size: 0.8rem;
     }
@@ -1028,7 +955,6 @@
     /* SEÇÃO OPÇÕES */
     .opcoes-header p {
         font-size: 450%;
-        font-weight: 100;
     }
     .opcoes-card-row {
         height: 350px;
@@ -1046,20 +972,16 @@
     .opcoes-card-title {
         padding-top: 8px;
         font-size: 200%;
-        font-weight: 800;
     }
     .opcoes-card-text {
         font-size: 140%;
-        font-weight: 600;
         text-align: justify;
     }
     .opcoes-card-duration {
         font-size: 160%;
-        font-weight: 600;
     }
     .opcoes-card-price {
         font-size: 200%;
-        font-weight: 600;
     }
     /*  SEÇÃO ONDE-UTILIZAR */
     .onde-utilizar-header {
@@ -1068,11 +990,9 @@
     }
     .onde-utilizar-header-title {
         font-size: 450%;
-        font-weight: 100;
     }
     .onde-utilizar-header-subtitle {
         font-size: 180%;
-        font-weight: 600;
     }
     .onde-utilizar-card {
         padding-top: 10px;
@@ -1097,11 +1017,9 @@
         height: 80px;
     }
     .card-title {
-        font-weight: 900;
         font-size: 160%;
     }
     .card-content {
-        font-weight: 900;
         font-size: 120%;
     }
     .onde-utilizar-info {
@@ -1117,6 +1035,5 @@
     .footer p {
         font-size: 120%;
         text-align: center;
-        font-weight: 200;
     }
-}   
+}
