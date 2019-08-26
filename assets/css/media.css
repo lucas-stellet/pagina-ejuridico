@@ -836,6 +836,12 @@
     #roll-button {
         width: 20%;
     }
+    #comprar {
+        min-height: 105vh;
+    }
+    .header-comprar {
+        margin-top: 5%
+    }
 }
 
 @media only screen and (min-width: 915px) and (min-height: 784px) {
@@ -865,6 +871,12 @@
         height: 125px;
         width: 161px;
         padding-left: 10px;
+    }
+    #comprar {
+        min-height: 102vh;
+    }
+    .header-comprar {
+        margin-top: 10%
     }
 }
 
@@ -917,7 +929,7 @@
     }
     .header-comprar {
         padding-top: 5%;
-        margin-top: 3%;
+        margin-top: 5%;
         color: white;
     }
     .header-comprar h1 {
@@ -950,7 +962,7 @@
         font-size: 0.8rem;
     }
     .opcoes-margin {
-        height: 50px;
+        height: 105px;
     }
     /* SEÇÃO OPÇÕES */
     .opcoes-header p {
